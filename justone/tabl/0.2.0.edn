@@ -1,0 +1,13 @@
+{:pod/name justone/tabl
+ :pod/description ""
+ :pod/version "0.2.0"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/justone/tabl/releases/download/v0.2.0/tabl-0.2.0-macos-amd64.zip"
+   :artifact/executable "tabl"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/justone/tabl/releases/download/v0.2.0/tabl-0.2.0-linux-amd64.zip"
+   :artifact/executable "tabl"}]}
