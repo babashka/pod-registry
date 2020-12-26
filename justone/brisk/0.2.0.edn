@@ -6,8 +6,8 @@
  [{:os/name "Mac.*"
    :os/arch "x86_64"
    :artifact/url "https://github.com/justone/brisk/releases/download/v0.2.0/brisk-macos-amd64.zip"
-   :artifact/executable "brisk"}
+   :artifact/executable "brisk-mac-amd-64"}
   {:os/name "Linux.*"
    :os/arch "amd64"
    :artifact/url "https://github.com/justone/brisk/releases/download/v0.2.0/brisk-linux-amd64.zip"
-   :artifact/executable "brisk"}]}
+   :artifact/executable "brisk-linux-amd-64"}]}
