@@ -1,0 +1,17 @@
+{:pod/name retrogradeorbit/bootleg
+ :pod/description ""
+ :pod/version "0.1.9"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/retrogradeorbit/bootleg/releases/download/v0.1.9/bootleg-0.1.9-macos-amd64.zip"
+   :artifact/executable "bootleg"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/retrogradeorbit/bootleg/releases/download/v0.1.9/bootleg-0.1.9-linux-amd64.tgz"
+   :artifact/executable "bootleg"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/retrogradeorbit/bootleg/releases/download/v0.1.9/bootleg-0.1.9-windows-amd64.zip"
+   :artifact/executable "bootleg.exe"}]}
