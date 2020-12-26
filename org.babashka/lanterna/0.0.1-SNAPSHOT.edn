@@ -7,11 +7,11 @@
  [{:os/name "Mac.*"
    :os/arch "x86_64"
    :artifact/url "https://14-303520083-gh.circle-artifacts.com/0/release/pod-babashka-lanterna-0.0.1-SNAPSHOT-macos-amd64.zip"
-   :artifact/executable "pod-babashka-hsqldb"}
+   :artifact/executable "pod-babashka-lanterna"}
   {:os/name "Linux.*"
    :os/arch "amd64"
    :artifact/url "https://13-303520083-gh.circle-artifacts.com/0/release/pod-babashka-lanterna-0.0.1-SNAPSHOT-linux-amd64.zip"
-   :artifact/executable "pod-babashka-hsqldb"}
+   :artifact/executable "pod-babashka-lanterna"}
   #_{:os/name "Windows.*"
      :os/arch "amd64"
      :artifact/url "https://github.com/borkdude/babashka/releases/download/v0.2.2/babashka-0.2.2-windows-amd64.zip"
