@@ -1,4 +1,4 @@
-{:pod/name clj-kondo/clj-kondo
+{:pod/name borkdude/clj-kondo
  :pod/description ""
  :pod/version "2020.12.12"
  :pod/license ""
