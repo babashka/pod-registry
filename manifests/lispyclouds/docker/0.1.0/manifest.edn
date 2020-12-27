@@ -1,4 +1,4 @@
-{:pod/name lispyclouds/pod-lispyclouds-docker
+{:pod/name lispyclouds/docker
  :pod/description "A babashka pod for interacting with docker via clj-docker-client"
  :pod/version "0.1.0"
  :pod/license "LGPL 3.0+"
