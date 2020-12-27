@@ -3,8 +3,15 @@
 The central place to register [babashka pods](https://github.com/babashka/pods) for easy usage with babashka.
 
 - [Pod registry](#pod-registry)
-  - [Registering a pod](#registering-a-pod)
   - [Registered pods](#registered-pods)
+  - [Registering a pod](#registering-a-pod)
+
+## Registered pods
+
+| Pod name      | Description           | Latest version  | Repo    |
+| ------------- |-----------------------|-----------------|---------|
+| borkdude/clj-kondo | A clojure linter that sparks joy | 2020.12.12 | [link](https://github.com/borkdude/clj-kondo) |
+| justone/brisk | Freeze and thaw with Nippy | 0.2.0 | [link](https://github.com/justone/brisk) |
 
 ## Registering a pod
 
@@ -55,9 +62,3 @@ downloaded and extracted. After extraction there should be a file with the same
 name as `:artifact/executable` which will be made executable and invoked as the
 pod.
 
-## Registered pods
-
-| Pod name      | Description           | Latest version  | Repo    |
-| ------------- |-----------------------|-----------------|---------|
-| borkdude/clj-kondo | A clojure linter that sparks joy | 2020.12.12 | [link](https://github.com/borkdude/clj-kondo) |
-| justone/brisk | Freeze and thaw with Nippy | 0.2.0 | [link](https://github.com/justone/brisk) |
