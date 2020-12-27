@@ -1,0 +1,13 @@
+{:pod/name org.babashka/parcera
+ :pod/description ""
+ :pod/version "0.0.1-SNAPSHOT"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/pod-babashka-parcera/releases/download/0.0.1-SNAPSHOT/pod-babashka-parcera-0.0.1-SNAPSHOT-macos-amd64.zip"
+   :artifact/executable "pod-babashka-parcera"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-parcera/releases/download/0.0.1-SNAPSHOT/pod-babashka-parcera-0.0.1-SNAPSHOT-linux-amd64.zip"
+   :artifact/executable "pod-babashka-parcera"}]}
