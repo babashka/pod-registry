@@ -8,10 +8,10 @@ The central place to register [babashka pods](https://github.com/babashka/pods) 
 
 ## Registered pods
 
-| Pod name      | Description           | Latest version  | Repo    |
-| ------------- |-----------------------|-----------------|---------|
-| borkdude/clj-kondo | A clojure linter that sparks joy | 2020.12.12 | [link](https://github.com/borkdude/clj-kondo) |
-| justone/brisk | Freeze and thaw with Nippy | 0.2.0 | [link](https://github.com/justone/brisk) |
+| Pod name      | Description           | Latest version  | Repo | Example    |
+| ------------- |-----------------------|-----------------|---------|---------|
+| borkdude/clj-kondo | A clojure linter that sparks joy | 2020.12.12 | [link](https://github.com/borkdude/clj-kondo) | [link](examples/clj-kondo.clj) |
+| justone/brisk | Freeze and thaw with Nippy | 0.2.0 | [link](https://github.com/justone/brisk) | [link](examples/brisk.clj) |
 
 ## Registering a pod
 
