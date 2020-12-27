@@ -18,8 +18,7 @@ The central place to register [babashka pods](https://github.com/babashka/pods) 
 | org.babashka/hsqldb | HSQLDB access via next.jdbc | 0.0.1 | [link](https://github.com/babashka/babashka-sql-pods/) | [link](examples/hsqldb.clj) |
 | org.babashka/parcera | Grammar-based Clojure(script) parser | 0.0.1-SNAPSHOT | [link](https://github.com/babashka/pod-babashka-parcera) | [link](examples/parcera.clj) |
 | org.babashka/postgresql | Postgresql access via next.jdbc | 0.0.1 | [link](https://github.com/babashka/babashka-sql-pods/) | |
-| retrogradeorbit/bootleg | Simple template processing command line tool to help build static websites | 0.1.9 | [link](https://github.com/retrogradeorbit/bootleg) | |
-
+| retrogradeorbit/bootleg | Simple template processing command line tool to help build static websites | 0.1.9 | [link](https://github.com/retrogradeorbit/bootleg) | [link](examples/bootleg.clj) |
 
 ## Registering a pod
 
@@ -55,7 +54,7 @@ The required fields are `:pod/name`, `:pod/version` and `:pod/artifacts`.
 
 You can then load the pod in your babashka script as follows:
 
-```
+``` clojure
 (require '[babashka.pods :as pods])
 (pods/load-pod 'tzzh/mail "0.0.2")
 
