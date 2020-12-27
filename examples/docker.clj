@@ -1,6 +1,6 @@
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'lispyclouds/docker "0.1.0")
+(pods/load-pod 'lispyclouds/docker "0.1.1")
 
 (require '[pod.lispyclouds.docker :as docker])
 
