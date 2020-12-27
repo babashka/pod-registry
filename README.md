@@ -12,7 +12,8 @@ The central place to register [babashka pods](https://github.com/babashka/pods) 
 | ------------- |-----------------------|-----------------|---------|---------|
 | borkdude/clj-kondo | A clojure linter that sparks joy | 2020.12.12 | [link](https://github.com/borkdude/clj-kondo) | [link](examples/clj-kondo.clj) |
 | justone/brisk | Freeze and thaw with Nippy | 0.2.0 | [link](https://github.com/justone/brisk) | [link](examples/brisk.clj) |
-| lispyclouds/pod-lispyclouds-docker | Interact with Docker | 0.1.0 | [link](https://github.com/lispyclouds/pod-lispyclouds-docker) | [link](examples/docker.clj) |
+| justone/tabl  | Make tables from data in your terminal | 0.2.0 | [link](https://github.com/justone/tabl) | [link](examples/tabl.clj) |
+| lispyclouds/pod-lispyclouds-docker | Interact with Docker | 0.1.1 | [link](https://github.com/lispyclouds/pod-lispyclouds-docker) | [link](examples/docker.clj) |
 
 ## Registering a pod
 
