@@ -6,3 +6,7 @@
 
 (def images (docker/client {:category :images
                             :conn     {:uri "unix:///var/run/docker.sock"}}))
+
+(require '[clojure.pprint :as pprint])
+
+(pprint/pprint images)
