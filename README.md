@@ -18,6 +18,7 @@ The central place to register [babashka pods](https://github.com/babashka/pods) 
 | org.babashka/hsqldb | HSQLDB access via next.jdbc | 0.0.1 | [link](https://github.com/babashka/babashka-sql-pods/) | [link](examples/hsqldb.clj) |
 | org.babashka/parcera | Grammar-based Clojure(script) parser | 0.0.1-SNAPSHOT | [link](https://github.com/babashka/pod-babashka-parcera) | [link](examples/parcera.clj) |
 | org.babashka/postgresql | Postgresql access via next.jdbc | 0.0.1 | [link](https://github.com/babashka/babashka-sql-pods/) | |
+| retrogradeorbit/bootleg | Simple template processing command line tool to help build static websites | 0.1.9 | [link](https://github.com/retrogradeorbit/bootleg) | |
 
 
 ## Registering a pod
