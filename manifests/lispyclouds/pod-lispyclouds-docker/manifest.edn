@@ -1,0 +1,20 @@
+{:pod/name lispyclouds/pod-lispyclouds-docker
+ :pod/description "A babashka pod for interacting with docker via clj-docker-client"
+ :pod/version "0.1.0"
+ :pod/license "LGPL 3.0+"
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url
+   "https://github.com/lispyclouds/pod-lispyclouds-docker/releases/download/0.1.0/pod-lispyclouds-docker-0.1.0-macos-amd64.zip"
+   :artifact/executable "pod-lispyclouds-docker"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url
+   "https://github.com/lispyclouds/pod-lispyclouds-docker/releases/download/0.1.0/pod-lispyclouds-docker-0.1.0-linux-amd64.zip"
+   :artifact/executable "pod-lispyclouds-docker"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url
+   "https://github.com/lispyclouds/pod-lispyclouds-docker/releases/download/0.1.0/pod-lispyclouds-docker-0.1.0-windows-amd64.zip"
+   :artifact/executable "pod-lispyclouds-docker.exe"}]}

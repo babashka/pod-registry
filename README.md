@@ -12,6 +12,7 @@ The central place to register [babashka pods](https://github.com/babashka/pods) 
 | ------------- |-----------------------|-----------------|---------|---------|
 | borkdude/clj-kondo | A clojure linter that sparks joy | 2020.12.12 | [link](https://github.com/borkdude/clj-kondo) | [link](examples/clj-kondo.clj) |
 | justone/brisk | Freeze and thaw with Nippy | 0.2.0 | [link](https://github.com/justone/brisk) | [link](examples/brisk.clj) |
+| lispyclouds/pod-lispyclouds-docker | Interact with Docker | 0.1.0 | [link](https://github.com/lispyclouds/pod-lispyclouds-docker) | [link](https://github.com/lispyclouds/pod-lispyclouds-docker#sample-script-to-pull-an-image-create-a-container-and-fetch-its-logs) |
 
 ## Registering a pod
 
