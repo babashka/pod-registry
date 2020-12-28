@@ -1,6 +1,6 @@
 {:pod/name org.babashka/parcera
  :pod/description ""
- :pod/version "0.0.1-SNAPSHOT"
+ :pod/version "0.0.1"
  :pod/license ""
  :pod/artifacts
  [{:os/name "Linux.*"

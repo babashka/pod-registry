@@ -1,7 +1,7 @@
 #!/usr/bin/env bb
 
 (require '[babashka.pods :as pods])
-(pods/load-pod 'org.babashka/parcera "0.0.1-SNAPSHOT")
+(pods/load-pod 'org.babashka/parcera "0.0.1")
 (require '[pod.babashka.parcera :as parcera])
 
 (prn (parcera/ast "(ns foo)"))
