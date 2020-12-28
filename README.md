@@ -14,6 +14,7 @@ The central place to register [babashka pods](https://github.com/babashka/pods) 
 | justone/brisk | Freeze and thaw with Nippy | 0.2.0 | [link](https://github.com/justone/brisk) | [link](examples/brisk.clj) |
 | justone/tabl  | Make tables from data in your terminal | 0.2.0 | [link](https://github.com/justone/tabl) | [link](examples/tabl.clj) |
 | lispyclouds/docker | Interact with Docker | 0.1.1 | [link](https://github.com/lispyclouds/pod-lispyclouds-docker) | [link](examples/docker.clj) |
+| org.babashka/buddy | Cryptographic API provided by buddy | 0.0.1| [link](https://github.com/babashka/pod-babashka-buddy) | [link](examples/buddy.clj) |
 | org.babashka/filewatcher | Filewatcher based on Rust notify | 0.0.1-SNAPSHOT | [link](https://github.com/babashka/pod-babashka-filewatcher) | [link](examples/filewatcher.clj) |
 | org.babashka/hsqldb | HSQLDB access via next.jdbc | 0.0.1 | [link](https://github.com/babashka/babashka-sql-pods/) | [link](examples/hsqldb.clj) |
 | org.babashka/parcera | Grammar-based Clojure(script) parser | 0.0.1-SNAPSHOT | [link](https://github.com/babashka/pod-babashka-parcera) | [link](examples/parcera.clj) |

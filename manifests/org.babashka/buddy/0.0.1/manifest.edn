@@ -1,0 +1,17 @@
+{:pod/name org.babashka/buddy
+ :pod/description ""
+ :pod/version "0.0.1"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.0.1/pod-babashka-buddy-0.0.1-linux-amd64.zip"
+   :artifact/executable "pod-babashka-buddy"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.0.1/pod-babashka-buddy-0.0.1-macos-amd64.zip"
+   :artifact/executable "pod-babashka-buddy"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.0.1/pod-babashka-buddy-0.0.1-windows-amd64.zip"
+   :artifact/executable "pod-babashka-buddy"}]}
