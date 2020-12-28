@@ -3,6 +3,7 @@
 The central place to register [babashka pods](https://github.com/babashka/pods) for easy usage with babashka.
 
 - [Pod registry](#pod-registry)
+  - [Loading and using a pod](#loading-and-using-a-pod)
   - [Registered pods](#registered-pods)
   - [Registering a pod](#registering-a-pod)
 
