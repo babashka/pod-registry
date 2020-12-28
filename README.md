@@ -8,7 +8,7 @@ The central place to register [babashka pods](https://github.com/babashka/pods) 
 
 ## Loading and using a pod
 
-Registered pods can be loaded using a qualified symbol and version string:
+Registered pods can be loaded using a qualified symbol and a version string:
 
 ``` clojure
 (require '[babashka.pods :as pods])
