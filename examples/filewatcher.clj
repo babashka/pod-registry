@@ -5,6 +5,6 @@
 
 (require '[pod.babashka.filewatcher :as fw])
 
-(fw/watch "/tmp" (fn [event] (prn event)) {:delay-ms 50})
+(fw/watch "." (fn [event] (prn event)) {:delay-ms 5000})
 
 @(promise)
