@@ -35,7 +35,7 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 | [org.babashka/filewatcher](https://github.com/babashka/pod-babashka-filewatcher) | Filewatcher based on Rust notify | 0.0.1-SNAPSHOT | [link](examples/filewatcher.clj) |
 | [org.babashka/hsqldb](https://github.com/babashka/babashka-sql-pods/) | HSQLDB access via next.jdbc | 0.0.1 | [link](examples/hsqldb.clj) |
 | [org.babashka/parcera](https://github.com/babashka/pod-babashka-parcera) | Grammar-based Clojure(script) parser | 0.0.1-SNAPSHOT | [link](examples/parcera.clj) |
-| [org.babashka/postgresql](https://github.com/babashka/babashka-sql-pods/) | Postgresql access via next.jdbc | 0.0.1 | |
+| [org.babashka/postgresql](https://github.com/babashka/babashka-sql-pods/) | Postgresql access via next.jdbc | 0.0.1 | See hsqldb |
 | [retrogradeorbit/bootleg](https://github.com/retrogradeorbit/bootleg) | Simple template processing command line tool to help build static websites | 0.1.9 | [link](examples/bootleg.clj) |
 
 ## Registering a pod
