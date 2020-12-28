@@ -3,8 +3,6 @@
 (require '[babashka.pods :as pods])
 (pods/load-pod 'org.babashka/buddy "0.0.1")
 
-(pods/load-pod "./pod-babashka-buddy")
-
 (require '[clojure.string :as str]
          '[pod.babashka.buddy.codecs :as codecs]
          '[pod.babashka.buddy.mac :as mac]
