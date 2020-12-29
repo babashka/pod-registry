@@ -34,6 +34,7 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 | [org.babashka/buddy](https://github.com/babashka/pod-babashka-buddy) | Cryptographic API provided by buddy | 0.0.1 | [link](examples/buddy.clj) |
 | [org.babashka/etaoin](https://github.com/babashka/pod-babashka-etaoin) | Etaoin, a pure Clojure webdriver protocol implementation  | 0.0.1 | [link](examples/etaoin.clj) |
 | [org.babashka/filewatcher](https://github.com/babashka/pod-babashka-filewatcher) | Filewatcher based on Rust notify | 0.0.1 | [link](examples/filewatcher.clj) |
+| [org.babashka/fswatcher](https://github.com/babashka/pod-babashka-fswatcher) | Filewatcher based on Go fsnotify | 0.0.1 | [link](examples/fswatcher.clj) |
 | [org.babashka/hsqldb](https://github.com/babashka/babashka-sql-pods/) | HSQLDB access via next.jdbc | 0.0.1 | [link](examples/hsqldb.clj) |
 | [org.babashka/parcera](https://github.com/babashka/pod-babashka-parcera) | Grammar-based Clojure(script) parser | 0.0.1| [link](examples/parcera.clj) |
 | [org.babashka/postgresql](https://github.com/babashka/babashka-sql-pods/) | Postgresql access via next.jdbc | 0.0.1 | See hsqldb |
