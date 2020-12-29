@@ -1,0 +1,13 @@
+{:pod/name rorokimdim/stash
+ :pod/description ""
+ :pod/version "0.2.0"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/rorokimdim/stash/releases/download/v0.2.0/stash-x86_64-linux.zip"
+   :artifact/executable "stash-x86_64-linux/stash"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/rorokimdim/stash/releases/download/v0.2.0/stash-mac-os.zip"
+   :artifact/executable "stash-mac-os/stash"}]}
