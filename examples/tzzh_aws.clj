@@ -4,17 +4,16 @@
 (require '[pod.tzzh.s3 :as s3])
 (require '[pod.tzzh.paginator :as p])
 
-
 (d/list-tables)
 
 (d/batch-get-item {:RequestItems
-                    {"AmazingTable" {:Keys [{:some-property {:S "SomeValue"} 
-                                             :something-else {:S "SomethingSomething"}}]}}})
+                   {"AmazingTable" {:Keys [{:some-property {:S "SomeValue"}
+                                            :something-else {:S "SomethingSomething"}}]}}})
 
 (d/batch-write-item {:RequestItems
-                    {"AmazingTable" [{:PutRequest {:Item {:some-property {:S "abxdggje"}
-                                                          :something-else {:S "zxcmbnj"}
-                                                          :another-thing {:S "asdasdsa"}}}}]}})
+                     {"AmazingTable" [{:PutRequest {:Item {:some-property {:S "abxdggje"}
+                                                           :something-else {:S "zxcmbnj"}
+                                                           :another-thing {:S "asdasdsa"}}}}]}})
 
 (d/get-item {:Key {:lalala {:S "zzzzzzzz"}
                    :bbbbbb {:S "abxbxbxx"}}
@@ -26,9 +25,9 @@
 
 ;; Paginators example
 (let [s3-paginator (p/get-paginator s3/list-objects-v2-pages)]
-    (s3-paginator {:Bucket "some-bucket"
-                   :Prefix "some-prefix/something/"}))
+  (s3-paginator {:Bucket "some-bucket"
+                 :Prefix "some-prefix/something/"}))
 ;; this returns a list of all the pages i.e a list of ListObjectsV2Output that are lazily fetched
 
-(let [glue-paginator (p/get-paginator g/list-crawlers)]
-         (glue-paginator))
+(let [glue-paginator (p/get-paginator p/list-crawlers)]
+  (glue-paginator))

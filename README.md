@@ -39,6 +39,8 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 | [org.babashka/parcera](https://github.com/babashka/pod-babashka-parcera) | Grammar-based Clojure(script) parser | 0.0.1| [link](examples/parcera.clj) | Clojure |
 | [org.babashka/postgresql](https://github.com/babashka/babashka-sql-pods/) | Postgresql access via next.jdbc | 0.0.1 | See hsqldb | Clojure |
 | [retrogradeorbit/bootleg](https://github.com/retrogradeorbit/bootleg) | Simple template processing command line tool to help build static websites | 0.1.9 | [link](examples/bootleg.clj) | Clojure |
+| [tzzh/aws](https://github.com/tzzh/pod-tzzh-aws) | Interact with AWS | 0.0.3 | [link](examples/tzzh_aws.clj) | Go |
+| [tzzh/mail](https://github.com/tzzh/pod-tzzh-mail) | Send emails | 0.0.2 | [link](examples/tzzh_mail.clj) | Go |
 
 ## Registering a pod
 
