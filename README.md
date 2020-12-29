@@ -84,7 +84,6 @@ You can then load the pod in your babashka script as follows:
 (m/send-mail ...)
 ```
 
-
 The `:pod/artifacts` vector will be matched in order on operating system and
 architecture. For the first match, the `:articact/url`, a zip file, will be
 downloaded and extracted. After extraction there should be a file with the same
