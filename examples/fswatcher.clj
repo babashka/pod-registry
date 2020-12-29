@@ -7,4 +7,6 @@
 
 (fw/watch "." (fn [event] (prn event)) {:delay-ms 5000})
 
+(println "Watching current directory for changes... Press Ctrl-C to quit.")
+
 @(promise)
