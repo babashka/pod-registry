@@ -25,20 +25,20 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 
 ## Registered pods
 
-| Pod      | Description           | Latest version  | Example    |
-| ------------- |-----------------------|-----------------|---------|
-| [borkdude/clj-kondo](https://github.com/borkdude/clj-kondo) | A clojure linter that sparks joy | 2020.12.12 | [link](examples/clj-kondo.clj) |
-| [justone/brisk](https://github.com/justone/brisk) | Freeze and thaw with Nippy | 0.2.0 | [link](examples/brisk.clj) |
-| [justone/tabl](https://github.com/justone/tabl)  | Make tables from data in your terminal | 0.2.0 | [link](examples/tabl.clj) |
-| [lispyclouds/docker](https://github.com/lispyclouds/pod-lispyclouds-docker) | Interact with Docker | 0.1.1 | [link](examples/docker.clj) |
-| [org.babashka/buddy](https://github.com/babashka/pod-babashka-buddy) | Cryptographic API provided by buddy | 0.0.1 | [link](examples/buddy.clj) |
-| [org.babashka/etaoin](https://github.com/babashka/pod-babashka-etaoin) | Etaoin, a pure Clojure webdriver protocol implementation  | 0.0.1 | [link](examples/etaoin.clj) |
-| [org.babashka/filewatcher](https://github.com/babashka/pod-babashka-filewatcher) | Filewatcher based on Rust notify | 0.0.1 | [link](examples/filewatcher.clj) |
-| [org.babashka/fswatcher](https://github.com/babashka/pod-babashka-fswatcher) | Filewatcher based on Go fsnotify | 0.0.1 | [link](examples/fswatcher.clj) |
-| [org.babashka/hsqldb](https://github.com/babashka/babashka-sql-pods/) | HSQLDB access via next.jdbc | 0.0.1 | [link](examples/hsqldb.clj) |
-| [org.babashka/parcera](https://github.com/babashka/pod-babashka-parcera) | Grammar-based Clojure(script) parser | 0.0.1| [link](examples/parcera.clj) |
-| [org.babashka/postgresql](https://github.com/babashka/babashka-sql-pods/) | Postgresql access via next.jdbc | 0.0.1 | See hsqldb |
-| [retrogradeorbit/bootleg](https://github.com/retrogradeorbit/bootleg) | Simple template processing command line tool to help build static websites | 0.1.9 | [link](examples/bootleg.clj) |
+| Pod      | Description           | Latest version  | Example    | Language |
+| ------------- |-----------------------|-----------------|---------| -------|
+| [borkdude/clj-kondo](https://github.com/borkdude/clj-kondo) | A clojure linter that sparks joy | 2020.12.12 | [link](examples/clj-kondo.clj) | Clojure |
+| [justone/brisk](https://github.com/justone/brisk) | Freeze and thaw with Nippy | 0.2.0 | [link](examples/brisk.clj) | Clojure |
+| [justone/tabl](https://github.com/justone/tabl)  | Make tables from data in your terminal | 0.2.0 | [link](examples/tabl.clj) | Clojure |
+| [lispyclouds/docker](https://github.com/lispyclouds/pod-lispyclouds-docker) | Interact with Docker | 0.1.1 | [link](examples/docker.clj) | Clojure |
+| [org.babashka/buddy](https://github.com/babashka/pod-babashka-buddy) | Cryptographic API provided by buddy | 0.0.1 | [link](examples/buddy.clj) | Clojure |
+| [org.babashka/etaoin](https://github.com/babashka/pod-babashka-etaoin) | Etaoin, a pure Clojure webdriver protocol implementation  | 0.0.1 | [link](examples/etaoin.clj) | Clojure |
+| [org.babashka/filewatcher](https://github.com/babashka/pod-babashka-filewatcher) | Filewatcher based on Rust notify | 0.0.1 | [link](examples/filewatcher.clj) | Rust |
+| [org.babashka/fswatcher](https://github.com/babashka/pod-babashka-fswatcher) | Filewatcher based on Go fsnotify | 0.0.1 | [link](examples/fswatcher.clj) | Go |
+| [org.babashka/hsqldb](https://github.com/babashka/babashka-sql-pods/) | HSQLDB access via next.jdbc | 0.0.1 | [link](examples/hsqldb.clj) | Clojure |
+| [org.babashka/parcera](https://github.com/babashka/pod-babashka-parcera) | Grammar-based Clojure(script) parser | 0.0.1| [link](examples/parcera.clj) | Clojure |
+| [org.babashka/postgresql](https://github.com/babashka/babashka-sql-pods/) | Postgresql access via next.jdbc | 0.0.1 | See hsqldb | Clojure |
+| [retrogradeorbit/bootleg](https://github.com/retrogradeorbit/bootleg) | Simple template processing command line tool to help build static websites | 0.1.9 | [link](examples/bootleg.clj) | Clojure |
 
 ## Registering a pod
 
