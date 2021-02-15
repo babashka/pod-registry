@@ -6,5 +6,5 @@
 
 (require '[pod.borkdude.clj-kondo :as clj-kondo])
 
-(-> (clj-kondo/run! {:lint ["src"]})
+(-> (clj-kondo/run! {:lint ["examples"]})
     :summary)
