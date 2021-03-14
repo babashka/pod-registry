@@ -1,0 +1,18 @@
+{:pod/name org.babashka/postgresql
+ :pod/description ""
+ :pod/version "0.0.4"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.4/pod-babashka-postgresql-0.0.4-macos-amd64.zip"
+   :artifact/executable "pod-babashka-postgresql"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.4/pod-babashka-postgresql-0.0.4-linux-amd64.zip"
+   :artifact/executable "pod-babashka-postgresql"}
+  #_{:os/name "Windows.*"
+     :os/arch "amd64"
+     :artifact/url "https://github.com/borkdude/babashka/releases/download/v0.2.2/babashka-0.2.2-windows-amd64.zip"
+     :artifact/hash "sha256:AAMks+jCr5JbeU4jHwaGxPHG22jyfvB5lzVEaRTpcHE="
+     :artifact/executable "bb.exe"}]}
