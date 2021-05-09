@@ -5,7 +5,7 @@
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"
-   :artifact/url "https://github.com/babashka/pod-babashka-aws/releases/download/v0.0.6/pod-babashka-aws-0.0.6-linux-amd64.zip"
+   :artifact/url "https://github.com/babashka/pod-babashka-aws/releases/download/v0.0.6/pod-babashka-aws-0.0.6-linux-amd64-static.zip"
    :artifact/executable "pod-babashka-aws"}
   {:os/name "Mac.*"
    :os/arch "x86_64"
