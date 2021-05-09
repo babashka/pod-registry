@@ -1,0 +1,17 @@
+{:pod/name org.babashka/aws
+ :pod/description ""
+ :pod/version "0.0.6"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-aws/releases/download/v0.0.6/pod-babashka-aws-0.0.6-linux-amd64.zip"
+   :artifact/executable "pod-babashka-aws"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/pod-babashka-aws/releases/download/v0.0.6/pod-babashka-aws-0.0.6-macos-amd64.zip"
+   :artifact/executable "pod-babashka-aws"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-aws/releases/download/v0.0.6/pod-babashka-aws-0.0.6-windows-amd64.zip"
+   :artifact/executable "pod-babashka-aws"}]}
