@@ -2,7 +2,7 @@
 
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'org.babashka/hsqldb "0.0.5")
+(pods/load-pod 'org.babashka/hsqldb "0.0.6")
 
 (require '[pod.babashka.hsqldb :as db])
 
