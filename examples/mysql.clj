@@ -18,3 +18,4 @@
 (mysql/execute! db ["create table mytable ( foobar int );"])
 (mysql/execute! db ["insert into mytable (foobar) values (3);"])
 (mysql/execute! db ["select * from mytable"])
+;;=> [{:mytable/foobar 3}]
