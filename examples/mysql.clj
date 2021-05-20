@@ -1,3 +1,5 @@
+#!/usr/bin/env bb
+
 (require '[babashka.pods :as pods])
 
 (pods/load-pod 'org.babashka/mysql "0.0.7")
