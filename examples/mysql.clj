@@ -17,7 +17,7 @@
 
 (def db (assoc conn :dbname "mydb"))
 
-(mysql/execute! db ["create table mytable ( foobar int );"])
-(mysql/execute! db ["insert into mytable (foobar) values (3);"])
+(mysql/execute! db ["create table mytable ( foobar datetime );"])
+(mysql/execute! db ["insert into mytable (foobar) values (?);" (java.util.Date.)])
 (mysql/execute! db ["select * from mytable"])
-;;=> [{:mytable/foobar 3}]
+;;=> [{:mytable/foobar #object[java.time.LocalDateTime 0x75e26b51 "2021-05-20T13:14:50"]}]
