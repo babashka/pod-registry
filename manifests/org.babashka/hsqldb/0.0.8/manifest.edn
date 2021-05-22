@@ -1,0 +1,17 @@
+{:pod/name org.babashka/hsqldb
+ :pod/description ""
+ :pod/version "0.0.8"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.8/pod-babashka-hsqldb-0.0.8-macos-amd64.zip"
+   :artifact/executable "pod-babashka-hsqldb"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.8/pod-babashka-hsqldb-0.0.8-linux-static-amd64.zip"
+   :artifact/executable "pod-babashka-hsqldb"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.8/pod-babashka-hsqldb-0.0.8-windows-amd64.zip"
+   :artifact/executable "pod-babashka-hsqldb.exe"}]}
