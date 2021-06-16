@@ -14,4 +14,4 @@
   {:os/name "Windows.*"
    :os/arch "amd64"
    :artifact/url "https://github.com/babashka/pod-babashka-go-sqlite3/releases/download/v0.0.1/pod-babashka-go-sqlite3-0.0.1-windows-amd64.zip"
-   :artifact/executable "pod-babashka-go-sqlite3"}]}
+   :artifact/executable "pod-babashka-go-sqlite3.exe"}]}

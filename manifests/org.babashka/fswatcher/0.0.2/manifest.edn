@@ -14,4 +14,4 @@
   {:os/name "Windows.*"
    :os/arch "amd64"
    :artifact/url "https://github.com/babashka/pod-babashka-fswatcher/releases/download/v0.0.2/pod-babashka-fswatcher-0.0.2-windows-amd64.zip"
-   :artifact/executable "pod-babashka-fswatcher"}]}
+   :artifact/executable "pod-babashka-fswatcher.exe"}]}
