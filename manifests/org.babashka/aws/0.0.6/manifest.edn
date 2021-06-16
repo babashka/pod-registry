@@ -14,4 +14,4 @@
   {:os/name "Windows.*"
    :os/arch "amd64"
    :artifact/url "https://github.com/babashka/pod-babashka-aws/releases/download/v0.0.6/pod-babashka-aws-0.0.6-windows-amd64.zip"
-   :artifact/executable "pod-babashka-aws"}]}
+   :artifact/executable "pod-babashka-aws.exe"}]}
