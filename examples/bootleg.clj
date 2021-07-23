@@ -13,8 +13,10 @@
       (utils/convert-to :html)))
 
 (prn "HTML:" html)
+;; "HTML:" "<div><h1>Using Bootleg From Babashka</h1><p>This is a demo</p></div>"
 
 (def hiccup
   (utils/convert-to html :hiccup))
 
 (prn "Hiccup:" hiccup)
+;; "Hiccup:" [:div [:h1 "Using Bootleg From Babashka"] [:p "This is a demo"]]
