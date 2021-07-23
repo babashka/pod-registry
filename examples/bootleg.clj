@@ -6,7 +6,15 @@
 
 (require '[pod.retrogradeorbit.bootleg.utils :as utils])
 
-(-> [:div
-     [:h1 "Using Bootleg From Babashka"]
-     [:p "This is a demo"]]
-    (utils/convert-to :html))
+(def html
+  (-> [:div
+       [:h1 "Using Bootleg From Babashka"]
+       [:p "This is a demo"]]
+      (utils/convert-to :html)))
+
+(prn "HTML:" html)
+
+(def hiccup
+  (utils/convert-to html :hiccup))
+
+(prn "Hiccup:" hiccup)
