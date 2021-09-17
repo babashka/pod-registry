@@ -1,0 +1,13 @@
+{:pod/name org.babashka/mssql
+ :pod/description ""
+ :pod/version "0.0.6"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.6/pod-babashka-mssql-0.0.6-macos-amd64.zip"
+   :artifact/executable "pod-babashka-mssql"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.6/pod-babashka-mssql-0.0.6-linux-static-amd64.zip"
+   :artifact/executable "pod-babashka-mssql"}]}

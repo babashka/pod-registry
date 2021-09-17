@@ -1,0 +1,17 @@
+{:pod/name org.babashka/oracle
+ :pod/description ""
+ :pod/version "0.0.8"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.8/pod-babashka-oracle-0.0.8-macos-amd64.zip"
+   :artifact/executable "pod-babashka-oracle"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.8/pod-babashka-oracle-0.0.8-linux-static-amd64.zip"
+   :artifact/executable "pod-babashka-oracle"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.0.8/pod-babashka-oracle-0.0.8-windows-amd64.zip"
+   :artifact/executable "pod-babashka-oracle.exe"}]}

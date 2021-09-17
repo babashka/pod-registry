@@ -25,12 +25,12 @@
         pod-dir (fs/path "manifests" pod)
         latest-dir (fs/path pod-dir latest)
         target (fs/path pod-dir version)]
-    (fs/create-dirs target) ;; copy-tree doesn't create the dir, TODO: fix?
+    ;; (fs/create-dirs target) ;; copy-tree doesn't create the dir, TODO: fix?
     (fs/copy-tree latest-dir target)
     (doseq [f (fs/list-dir target)]
       (spit (fs/file f) (str/replace (slurp (fs/file f))
                                      latest version)))))
 
-(when (= *file* (System/getenv "babashka.file"))
+(when (= *file* (System/getProperty "babashka.file"))
   (let [[pod version] *command-line-args*]
     (upgrade-manifest pod version)))

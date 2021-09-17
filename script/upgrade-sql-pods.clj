@@ -14,9 +14,10 @@
 (upgrade-manifest/upgrade-manifest "org.babashka/hsqldb" version)
 (upgrade-manifest/upgrade-manifest "org.babashka/postgresql" version)
 (upgrade-manifest/upgrade-manifest "org.babashka/mssql" version)
+(upgrade-manifest/upgrade-manifest "org.babashka/mysql" version)
 
-(def hsqldb-example "examples/hsqldb.clj")
 
-(spit hsqldb-example
-      (str/replace (slurp hsqldb-example)
-                   latest version))
+(doseq [example ["examples/hsqldb.clj" "examples/mysql.clj" "examples/postgresql.clj"]]
+  (spit example
+        (str/replace (slurp example)
+                     latest version)))
