@@ -27,7 +27,7 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 
 | Pod      | Description           | Latest version  | Example    | Language |
 | ------------- |-----------------------|-----------------|---------| -------|
-| [borkdude/clj-kondo](https://github.com/borkdude/clj-kondo) | A clojure linter that sparks joy | 2021.06.18 | [link](examples/clj-kondo.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
+| [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | A clojure linter that sparks joy | 2021.09.19 | [link](examples/clj-kondo.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [justone/brisk](https://github.com/justone/brisk) | Freeze and thaw with Nippy | 0.2.0 | [link](examples/brisk.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [justone/tabl](https://github.com/justone/tabl)  | Make tables from data in your terminal | 0.2.0 | [link](examples/tabl.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [lispyclouds/docker](https://github.com/lispyclouds/pod-lispyclouds-docker) | Interact with Docker | 0.1.1 | [link](examples/docker.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
