@@ -4,7 +4,8 @@
 
 (require '[clojure.tools.deps.alpha :as tda])
 
-(->> (tda/create-basis {:project "deps.edn"})
+(->> (tda/create-basis {:project "deps.edn"
+                        :extra '{:deps {buddy/buddy-core {:mvn/version "1.10.1"}}}})
      :classpath-roots
      (take 2))
 
