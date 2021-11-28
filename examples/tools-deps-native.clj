@@ -1,6 +1,6 @@
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'org.babashka/tools-deps-native "0.0.4")
+(pods/load-pod 'org.babashka/tools-deps-native "0.0.5")
 
 (require '[clojure.tools.deps.alpha :as tda])
 
@@ -9,4 +9,4 @@
      :classpath-roots
      (take 2))
 
-;;= > ("src" "/Users/borkdude/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar")
+;;=> ("src" "/Users/borkdude/.m2/repository/buddy/buddy-core/1.10.1/buddy-core-1.10.1.jar")
