@@ -1,7 +1,8 @@
 #!/usr/bin/env bb
 
 (ns sqlite3-script
-  (:require [babashka.pods :as pods]))
+  (:require
+   [babashka.pods :as pods]))
 
 (pods/load-pod 'org.babashka/go-sqlite3 "0.0.1")
 (require '[pod.babashka.go-sqlite3 :as sqlite])
