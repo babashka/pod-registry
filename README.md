@@ -27,7 +27,7 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 
 | Pod      | Description           | Latest version  | Example    | Language |
 | ------------- |-----------------------|-----------------|---------| -------|
-| [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | A clojure linter that sparks joy | 2021.09.19 | [link](examples/clj-kondo.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
+| [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | A clojure linter that sparks joy | 2021.10.19 | [link](examples/clj-kondo.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [com.github.clojure-lsp/clojure-lsp](https://github.com/clojure-lsp/clojure-lsp) | Language Server (LSP) for Clojure | 2022.01.03-19.46.10 | [link](examples/clojure-lsp.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) 
 | [justone/brisk](https://github.com/justone/brisk) | Freeze and thaw with Nippy | 0.2.0 | [link](examples/brisk.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [justone/tabl](https://github.com/justone/tabl)  | Make tables from data in your terminal | 0.2.0 | [link](examples/tabl.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
