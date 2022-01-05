@@ -7,4 +7,9 @@
 (require '[clojure-lsp.api :as api])
 ;; see https://cljdoc.org/d/com.github.clojure-lsp/clojure-lsp/2021.12.20-00.36.56/api/clojure-lsp.api
 
-(api/clean-ns! {:settings {:source-paths ["examples"]}})
+(api/clean-ns! {}) ;; see settings in .lsp/config.edn
+
+;; @ericdallo: somehow this isn't working, even when there are lint warnings:
+(defn foo [unused])
+(comment unresolved-symbol)
+(api/diagnostics {})
