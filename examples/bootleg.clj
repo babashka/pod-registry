@@ -20,3 +20,8 @@
 
 (prn "Hiccup:" hiccup)
 ;; "Hiccup:" [:div [:h1 "Using Bootleg From Babashka"] [:p "This is a demo"]]
+
+(def hickory
+  (utils/convert-to html :hickory))
+
+(prn "Hickory:" hickory)
