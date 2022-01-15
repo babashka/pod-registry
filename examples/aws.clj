@@ -2,7 +2,7 @@
 
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'org.babashka/aws "0.1.0")
+(pods/load-pod 'org.babashka/aws "0.1.1")
 
 (require '[pod.babashka.aws :as aws])
 
