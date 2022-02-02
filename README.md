@@ -13,13 +13,13 @@ Registered pods can be loaded using a qualified symbol and a version string:
 
 ``` clojure
 (require '[babashka.pods :as pods])
-(pods/load-pod 'org.babashka/buddy "0.0.1")
+(pods/load-pod 'org.babashka/buddy "0.1.0")
 ```
 
 From then on, a pod exposes namespaces which can be called like regular Clojure:
 
 ``` clojure
-(require '[pod.babashka.buddy.hash :as hash])
+(require '[pod.babashka.buddy.core.hash :as hash])
 (hash/md5 "foo")
 ```
 
@@ -33,7 +33,7 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 | [justone/tabl](https://github.com/justone/tabl)  | Make tables from data in your terminal | 0.2.0 | [link](examples/tabl.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [lispyclouds/docker](https://github.com/lispyclouds/pod-lispyclouds-docker) | Interact with Docker | 0.1.1 | [link](examples/docker.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [org.babashka/aws](https://github.com/babashka/pod-babashka-aws) | AWS client based on [aws-api](https://github.com/cognitect-labs/aws-api) | 0.1.2 | [link](examples/aws.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
-| [org.babashka/buddy](https://github.com/babashka/pod-babashka-buddy) | Cryptographic API provided by buddy | 0.0.1 | [link](examples/buddy.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
+| [org.babashka/buddy](https://github.com/babashka/pod-babashka-buddy) | Cryptographic API provided by buddy | 0.1.0 | [link](examples/buddy.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [org.babashka/etaoin](https://github.com/babashka/pod-babashka-etaoin) | Etaoin, a pure Clojure webdriver protocol implementation  | 0.1.0 | [link](examples/etaoin.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [org.babashka/filewatcher](https://github.com/babashka/pod-babashka-filewatcher) | Filewatcher based on Rust notify | 0.0.1 | [link](examples/filewatcher.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" alt="rust" width="24" height="24">](https://www.rust-lang.org/) |
 | [org.babashka/fswatcher](https://github.com/babashka/pod-babashka-fswatcher) | Filewatcher based on Go fsnotify | 0.0.2 | [link](examples/fswatcher.clj) | [<img src="https://raw.githubusercontent.com/golang-samples/gopher-vector/master/gopher-front.svg" alt="golang" width="24" height="24">](https://golang.org/) |
