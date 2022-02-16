@@ -2,7 +2,7 @@
 
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'clj-kondo/clj-kondo "2021.12.19")
+(pods/load-pod 'clj-kondo/clj-kondo "2022.02.09")
 
 (require '[pod.borkdude.clj-kondo :as clj-kondo])
 
