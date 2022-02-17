@@ -8,7 +8,7 @@
    :artifact/url "https://github.com/fluree/pod-fluree-crypto/releases/download/v0.1.0/pod-fluree-crypto-linux-amd64.zip"
    :artifact/executable "pod-fluree-crypto"}
   {:os/name "Linux.*"
-   :os/arch "arm64"
+   :os/arch "aarch64"
    :artifact/url "https://github.com/fluree/pod-fluree-crypto/releases/download/v0.1.0/pod-fluree-crypto-linux-arm64.zip"
    :artifact/executable "pod-fluree-crypto"}
   {:os/name "Mac.*"
