@@ -1,0 +1,17 @@
+{:pod/name org.babashka/tools-deps-native
+ :pod/description ""
+ :pod/version "0.0.5"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/tools-deps-native/releases/download/v0.0.5/tools-deps-native-0.0.5-macos-amd64.zip"
+   :artifact/executable "tools-deps-native"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/tools-deps-native/releases/download/v0.0.5/tools-deps-native-0.0.5-linux-amd64.zip"
+   :artifact/executable "tools-deps-native"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/tools-deps-native/releases/download/v0.0.5/tools-deps-native-0.0.5-windows-amd64.zip"
+   :artifact/executable "tools-deps-native.exe"}]}

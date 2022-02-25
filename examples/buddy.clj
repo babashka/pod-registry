@@ -1,12 +1,12 @@
 #!/usr/bin/env bb
 
 (require '[babashka.pods :as pods])
-(pods/load-pod 'org.babashka/buddy "0.0.1")
+(pods/load-pod 'org.babashka/buddy "0.1.0")
 
 (require '[clojure.string :as str]
-         '[pod.babashka.buddy.codecs :as codecs]
-         '[pod.babashka.buddy.mac :as mac]
-         '[pod.babashka.buddy.nonce :as nonce])
+         '[pod.babashka.buddy.core.codecs :as codecs]
+         '[pod.babashka.buddy.core.mac :as mac]
+         '[pod.babashka.buddy.core.nonce :as nonce])
 
 (def hash-algorithm :hmac+sha256)
 (def secret (nonce/random-bytes 64))
