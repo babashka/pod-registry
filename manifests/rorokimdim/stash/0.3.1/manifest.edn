@@ -1,0 +1,17 @@
+{:pod/name rorokimdim/stash
+ :pod/description ""
+ :pod/version "0.3.1"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/rorokimdim/stash/releases/download/v0.3.1/stash-Linux.zip"
+   :artifact/executable "stash"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/rorokimdim/stash/releases/download/v0.3.1/stash-macOS.zip"
+   :artifact/executable "stash"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/rorokimdim/stash/releases/download/v0.3.1/stash-Windows.zip"
+   :artifact/executable "stash.exe"}]}
