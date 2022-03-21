@@ -7,6 +7,10 @@
    :os/arch "amd64"
    :artifact/url "https://github.com/babashka/pod-babashka-go-sqlite3/releases/download/v0.1.0/pod-babashka-go-sqlite3-0.1.0-linux-amd64.zip"
    :artifact/executable "pod-babashka-go-sqlite3"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-go-sqlite3/releases/download/v0.1.0/pod-babashka-go-sqlite3-0.1.0-linux-aarch64.zip"
+   :artifact/executable "pod-babashka-go-sqlite3"}
   {:os/name "Mac.*"
    :os/arch "x86_64"
    :artifact/url "https://github.com/babashka/pod-babashka-go-sqlite3/releases/download/v0.1.0/pod-babashka-go-sqlite3-0.1.0-macos-amd64.zip"
