@@ -1,7 +1,7 @@
 #!/usr/bin/env bb
 
 (require '[babashka.pods :as pods])
-(pods/load-pod 'com.fluree/crypto "0.1.0")
+(pods/load-pod 'com.fluree/crypto "0.1.1")
 
 (require '[pod.fluree.crypto :as crypto])
 
