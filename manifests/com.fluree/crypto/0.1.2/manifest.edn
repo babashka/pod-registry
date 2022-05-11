@@ -1,0 +1,17 @@
+{:pod/name com.fluree/crypto
+ :pod/description "Fluree crypto library"
+ :pod/version "0.1.2"
+ :pod/license "MIT"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/fluree/pod-fluree-crypto/releases/download/v0.1.2/pod-fluree-crypto-linux-amd64.zip"
+   :artifact/executable "pod-fluree-crypto"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/fluree/pod-fluree-crypto/releases/download/v0.1.2/pod-fluree-crypto-linux-arm64.zip"
+   :artifact/executable "pod-fluree-crypto"}
+  {:os/name "Mac.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/fluree/pod-fluree-crypto/releases/download/v0.1.2/pod-fluree-crypto-macos-amd64.zip"
+   :artifact/executable "pod-fluree-crypto"}]}
