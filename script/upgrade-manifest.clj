@@ -6,7 +6,7 @@
             [clojure.string :as str]))
 
 ;; TODO: version-clj 2.0 isn't compatible with bb anymore
-(deps/add-deps '{:deps {version-clj/version-clj {:mvn/version "2.0.1"}}})
+(deps/add-deps '{:deps {version-clj/version-clj {:mvn/version "2.0.2"}}})
 
 (require '[version-clj.core :as v])
 
