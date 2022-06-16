@@ -1,0 +1,17 @@
+{:pod/name borkdude/clj-kondo
+ :pod/description ""
+ :pod/version "2022.05.31"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2022.05.31/clj-kondo-2022.05.31-macos-amd64.zip"
+   :artifact/executable "clj-kondo"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2022.05.31/clj-kondo-2022.05.31-linux-static-amd64.zip"
+   :artifact/executable "clj-kondo"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2022.05.31/clj-kondo-2022.05.31-windows-amd64.zip"
+   :artifact/executable "clj-kondo.exe"}]}
