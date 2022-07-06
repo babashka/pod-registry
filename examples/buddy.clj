@@ -1,7 +1,7 @@
 #!/usr/bin/env bb
 
 (require '[babashka.pods :as pods])
-(pods/load-pod 'org.babashka/buddy "0.1.0")
+(pods/load-pod 'org.babashka/buddy "0.2.0")
 
 (require '[clojure.string :as str]
          '[pod.babashka.buddy.core.codecs :as codecs]
