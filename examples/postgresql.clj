@@ -8,8 +8,10 @@
 
 (def db {:dbtype "postgresql"
          :user "postgres"
-         :database "postgres"
-         :password "mysecretpassword"})
+         :dbname "postgres"
+         :password "mysecretpassword"
+         :host "localhost"
+         :port "5432"})
 
 (pg/execute! db ["drop table if exists mytable;"])
 (pg/execute! db ["create table mytable ( foobar int );"])
