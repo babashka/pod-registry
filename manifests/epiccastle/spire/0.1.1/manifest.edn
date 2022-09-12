@@ -1,0 +1,14 @@
+{:pod/name epiccastle/spire
+ :pod/description "Pragmatic idempotent machine provisioning over SSH (mac and linux only)"
+ :pod/version "0.1.1"
+ :pod/license "EPL"
+ :pod/options {:transport :socket}
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/epiccastle/spire/releases/download/v0.1.1/spire-0.1.1-macos-amd64.zip"
+   :artifact/executable "spire"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/epiccastle/spire/releases/download/v0.1.1/spire-0.1.1-linux-amd64.tgz"
+   :artifact/executable "spire"}]}
