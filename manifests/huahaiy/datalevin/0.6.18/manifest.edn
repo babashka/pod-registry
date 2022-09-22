@@ -1,0 +1,17 @@
+{:pod/name        huahaiy/datalevin
+ :pod/description "Datalevin Database"
+ :pod/version     "0.6.18"
+ :pod/license     "EPL"
+ :pod/artifacts
+ [{:os/name             "Linux.*"
+   :os/arch             "amd64"
+   :artifact/url        "https://github.com/juji-io/datalevin/releases/download/0.6.18/dtlv-0.6.18-ubuntu-latest-amd64.zip"
+   :artifact/executable "dtlv"}
+  {:os/name             "Mac.*"
+   :os/arch             "x86_64"
+   :artifact/url        "https://github.com/juji-io/datalevin/releases/download/0.6.18/dtlv-0.6.18-macos-latest-amd64.zip"
+   :artifact/executable "dtlv"}
+  {:os/name             "Windows.*"
+   :os/arch             "amd64"
+   :artifact/url        "https://github.com/juji-io/datalevin/releases/download/0.6.18/dtlv-0.6.18-windows-amd64.zip"
+   :artifact/executable "dtlv.exe"}]}
