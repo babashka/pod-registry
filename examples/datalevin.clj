@@ -2,7 +2,7 @@
 
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'huahaiy/datalevin "0.6.7")
+(pods/load-pod 'huahaiy/datalevin "0.6.16")
 
 (require '[pod.huahaiy.datalevin :as d])
 
@@ -10,6 +10,6 @@
 
 (d/transact! conn [{:greeting "Hello world!"}])
 
-(d/q '[:find ?g :where [_ :greeting ?g]] (d/db conn))
+(println (d/q '[:find ?g :where [_ :greeting ?g]] (d/db conn)))
 
 (d/close conn)
