@@ -23,6 +23,11 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 (hash/md5 "foo")
 ```
 
+## Testing tables
+
+<table><tr><th>Pod</th><th>Description</th><th>Version</th></tr><tr><td>aws</td><td></td><td>0.0.6</td></tr></table>
+
+
 ## Registered pods
 
 | Pod                                                                              | Description                                                                                                                                                             | Latest version      | Example                                | Language                                                                                                                                                                 |
