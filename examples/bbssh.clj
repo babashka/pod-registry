@@ -30,7 +30,7 @@
       :size 5
       }]                             ;; input stream
     ]
-   "bbssh-test"                      ;; remote path
+   "remote-path"                     ;; remote path
    {:session session                 ;; options
     :recurse? true})
 
