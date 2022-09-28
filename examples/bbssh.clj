@@ -1,6 +1,7 @@
 #!/usr/bin/env bb
 
-(require '[babashka.pods :as pods])
+(require '[babashka.pods :as pods]
+         '[clojure.java.io :as io])
 
 (pods/load-pod 'epiccastle/bbssh "0.1.0")
 
