@@ -22,11 +22,11 @@
    ;; multiple sources
    [(io/file "single-file")          ;; file
     (io/file "directory")            ;; directory
-    ["content🚀" {:name "string"}]    ;; string data
+    ["content🚀" {:filename "string"}]    ;; string data
     [(byte-array [1 2 3 4])
-     {:name "byte-array"}]           ;; byte-array data
+     {:filename "byte-array"}]           ;; byte-array data
     [(io/input-stream (byte-array [0xf0 0x9f 0x9a 0x80 0x00]))
-     {:name "input-stream"
+     {:filename "input-stream"
       :size 5
       }]                             ;; input stream
     ]
