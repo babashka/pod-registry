@@ -1,7 +1,9 @@
 {:pod/name com.github.clojure-lsp/clojure-lsp
- :pod/description ""
+ :pod/description "Language Server (LSP) for Clojure"
  :pod/version "2022.02.01-20.02.32"
  :pod/license ""
+ :pod/example "examples/clojure-lsp.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"

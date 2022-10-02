@@ -1,7 +1,9 @@
 {:pod/name org.babashka/oracle
- :pod/description ""
+ :pod/description "Oracle access via next.jdbc"
  :pod/version "0.0.8"
  :pod/license ""
+ :pod/example ""
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"

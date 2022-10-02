@@ -1,7 +1,9 @@
 {:pod/name org.babashka/fswatcher
- :pod/description ""
+ :pod/description "Filewatcher based on Go fsnotify"
  :pod/version "0.0.3"
  :pod/license ""
+ :pod/example "examples/fswatcher.clj"
+ :pod/language "go"
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"

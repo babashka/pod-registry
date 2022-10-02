@@ -1,7 +1,9 @@
 {:pod/name org.babashka/filewatcher
- :pod/description ""
+ :pod/description "Filewatcher based on Rust notify"
  :pod/version "0.0.1"
  :pod/license ""
+ :pod/example "examples/filewatcher.clj"
+ :pod/language "rust"
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"

@@ -1,7 +1,9 @@
 {:pod/name com.fluree/crypto
- :pod/description "Fluree crypto library"
+ :pod/description "A Clojure(Script) crypto library for the Fluree graph database"
  :pod/version "0.1.2"
  :pod/license "MIT"
+ :pod/example "examples/fluree-crypto.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"

@@ -1,7 +1,9 @@
 {:pod/name org.babashka/tools-deps-native
- :pod/description ""
+ :pod/description "Tools deps alpha as a pod	"
  :pod/version "0.0.5"
  :pod/license ""
+ :pod/example "examples/tools-deps-native.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"

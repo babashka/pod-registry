@@ -1,7 +1,9 @@
 {:pod/name retrogradeorbit/bootleg
- :pod/description ""
+ :pod/description "Template processing command line tool to help build static websites. Inbuilt support for html, hiccup, hickory, selmer, mustache, markdown, enlive, json, yaml and edn."
  :pod/version "0.1.9"
  :pod/license ""
+ :pod/example "examples/bootleg.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"

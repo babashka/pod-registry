@@ -1,7 +1,9 @@
 {:pod/name rorokimdim/stash
- :pod/description ""
+ :pod/description "Encrypted text storage"
  :pod/version "0.3.1"
  :pod/license ""
+ :pod/example "examples/stash.clj"
+ :pod/language "haskell"
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"
