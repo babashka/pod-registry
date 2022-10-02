@@ -66,9 +66,11 @@ and add a `manifest.edn` file like the following example:
 
 ```clojure
 {:pod/name tzzh/mail
- :pod/description ""
+ :pod/description "Send emails"
  :pod/version "0.0.2"
  :pod/license ""
+ :pod/example "https://raw.githubusercontent.com/babashka/pod-registry/master/examples/tzzh_mail.clj"
+ :pod/language "go"
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"
@@ -84,7 +86,7 @@ and add a `manifest.edn` file like the following example:
    :artifact/executable "pod-tzzh-mail.exe"}]}
 ```
 
-The required fields are `:pod/name`, `:pod/version` and `:pod/artifacts`.
+The required fields are `:pod/name`, `:pod/version` and `:pod/artifacts`. For the sake of programmatical integrity you can populate `:pod/description`, `:pod/example` (with a link) and `:pod/language` fields as well.
 
 You can then load the pod in your babashka script as follows:
 
@@ -97,7 +99,7 @@ You can then load the pod in your babashka script as follows:
 ```
 
 The `:pod/artifacts` vector will be matched in order on operating system and
-architecture. For the first match, the `:articact/url`, a zip file, will be
+architecture. For the first match, the `:artifact/url`, a zip file, will be
 downloaded and extracted. After extraction there should be a file with the same
 name as `:artifact/executable` which will be made executable and invoked as the
 pod.
