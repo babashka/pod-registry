@@ -1,0 +1,15 @@
+{:pod/name justone/brisk
+ :pod/description "Freeze and thaw with Nippy at the command line"
+ :pod/version "0.3.0"
+ :pod/license "EPL"
+ :pod/example "examples/brisk.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/justone/brisk/releases/download/v0.3.0/brisk-macos-amd64.zip"
+   :artifact/executable "brisk"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/justone/brisk/releases/download/v0.3.0/brisk-linux-amd64.zip"
+   :artifact/executable "brisk"}]}

@@ -2,6 +2,8 @@
  :pod/description "Datalevin Database"
  :pod/version     "0.6.7"
  :pod/license     "EPL"
+ :pod/example "examples/datalevin.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name             "Linux.*"
    :os/arch             "amd64"
