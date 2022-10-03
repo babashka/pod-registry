@@ -20,13 +20,13 @@
        file-seq
        (filter #(str/ends-with? % "manifest.edn"))
        (map edn-read)
-
        ;; reversed because we want higher to lower
-       (sort (fn [x y] (v/version-seq-compare (:pod/version y) (:pod/version x))))
+       (sort (fn [x y] (v/version-compare (:pod/version y) (:pod/version x))))
 
        ;; get first of the pods group only
        (group-by :pod/name)
-       (reduce (fn [agg [_ vs]] (conj agg (first vs))) [])))
+       (reduce (fn [agg [_ vs]] (conj agg (first vs))) [])
+       (sort-by :pod/name)))
 
 (defn format-name
   [pod]
@@ -52,7 +52,7 @@
                   (format-name p)
                   description
                   version
-                  (format "[link](%s)" example)
+                  (if (str/blank? example) "" (format "[link](%s)" example))
                   (programming-langs (keyword language)))))
    (str "| Pod | Description | Latest version | Example | Language |\n"
         "| --- | --- | --- | --- | --- |\n")
