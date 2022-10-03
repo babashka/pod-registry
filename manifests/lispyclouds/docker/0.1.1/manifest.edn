@@ -2,6 +2,8 @@
  :pod/description "A babashka pod for interacting with docker via clj-docker-client"
  :pod/version "0.1.1"
  :pod/license "LGPL 3.0+"
+ :pod/example "examples/docker.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"

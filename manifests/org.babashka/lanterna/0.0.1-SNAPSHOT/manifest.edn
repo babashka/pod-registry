@@ -1,8 +1,10 @@
 {:pod/name org.babashka/lanterna
- :pod/description ""
+ :pod/description "A Clojurey wrapper around the Lanterna terminal output library."
  :pod/version "0.0.1-SNAPSHOT"
  :pod/license ""
  :pod/options {:transport :socket}
+ :pod/example "examples/laterna.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"

@@ -1,7 +1,9 @@
 {:pod/name tzzh/aws
- :pod/description ""
+ :pod/description "Interact with AWS"
  :pod/version "0.0.3"
  :pod/license ""
+ :pod/example "examples/tzzh_aws.clj"
+ :pod/language "go"
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"

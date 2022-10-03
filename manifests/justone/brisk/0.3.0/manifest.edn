@@ -2,6 +2,8 @@
  :pod/description "Freeze and thaw with Nippy at the command line"
  :pod/version "0.3.0"
  :pod/license "EPL"
+ :pod/example "examples/brisk.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"

@@ -1,7 +1,9 @@
 {:pod/name tzzh/mail
- :pod/description ""
+ :pod/description "Send emails"
  :pod/version "0.0.2"
  :pod/license ""
+ :pod/example "examples/tzzh_mail.clj"
+ :pod/language "go"
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"

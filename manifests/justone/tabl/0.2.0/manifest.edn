@@ -1,7 +1,9 @@
 {:pod/name justone/tabl
- :pod/description ""
+ :pod/description "Make tables from data in your terminal"
  :pod/version "0.2.0"
  :pod/license ""
+ :pod/example "examples/tabl.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"

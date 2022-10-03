@@ -1,7 +1,9 @@
 {:pod/name org.babashka/aws
- :pod/description ""
+ :pod/description "AWS client based on [aws-api](https://github.com/cognitect-labs/aws-api)"
  :pod/version "0.1.2"
  :pod/license ""
+ :pod/example "examples/aws.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"

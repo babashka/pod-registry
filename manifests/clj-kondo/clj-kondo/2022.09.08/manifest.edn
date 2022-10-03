@@ -1,7 +1,9 @@
 {:pod/name borkdude/clj-kondo
- :pod/description ""
+ :pod/description "A static analyzer and linter for Clojure code that sparks joy"
  :pod/version "2022.09.08"
  :pod/license ""
+ :pod/example "examples/clj-kondo.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"

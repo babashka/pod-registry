@@ -3,6 +3,8 @@
  :pod/version "0.1.1"
  :pod/license "EPL"
  :pod/options {:transport :socket}
+ :pod/example "examples/bbssh.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"
