@@ -27,7 +27,7 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 
 | Pod | Description | Latest version | Example | Language |
 | --- | --- | --- | --- | --- |
-| [borkdude/clj-kondo](https://github.com/clj-kondo/clj-kondo) | A static analyzer and linter for Clojure code that sparks joy | 2022.09.08 | [link](examples/clj-kondo.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
+| [borkdude/clj-kondo](https://github.com/clj-kondo/clj-kondo) | A static analyzer and linter for Clojure code that sparks joy | 2022.10.05 | [link](examples/clj-kondo.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [com.fluree/crypto](https://github.com/fluree/pod-fluree-crypto) | A Clojure(Script) crypto library for the Fluree graph database | 0.1.2 | [link](examples/fluree-crypto.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [com.github.clojure-lsp/clojure-lsp](https://github.com/clojure-lsp/clojure-lsp) | Language Server (LSP) for Clojure | 2022.02.01-20.02.32 | [link](examples/clojure-lsp.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [epiccastle/bbssh](https://github.com/epiccastle/bbssh) | SSH remote execution and file copy | 0.1.0 | [link](examples/bbssh) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
