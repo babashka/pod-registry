@@ -14,6 +14,10 @@
    :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2022.10.05/clj-kondo-2022.10.05-macos-amd64.zip"
    :artifact/executable "clj-kondo"}
   {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2022.10.05/clj-kondo-2022.10.05-linux-aarch64.zip"
+   :artifact/executable "clj-kondo"}
+  {:os/name "Linux.*"
    :os/arch "amd64"
    :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2022.10.05/clj-kondo-2022.10.05-linux-static-amd64.zip"
    :artifact/executable "clj-kondo"}
