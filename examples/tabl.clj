@@ -1,7 +1,7 @@
 #!/usr/bin/env bb
 
 (require '[babashka.pods :as pods])
-(pods/load-pod 'justone/tabl "0.2.0")
+(pods/load-pod 'justone/tabl "0.3.0")
 
 (require '[pod.tabl.fancy :as fancy])
 (require '[pod.tabl.doric :as doric])
