@@ -2,7 +2,7 @@
  :pod/description "docker golang utils for clojure"
  :pod/version "0.1.0"
  :pod/license "Apache"
- :pod/example "https://raw.githubusercontent.com/atomisthq/pod-babashka-docker/main/dev/user.clj"
+ :pod/example "https://raw.githubusercontent.com/atomisthq/pod-atomisthq-docker/main/dev/user.clj"
  :pod/language "go"
  :pod/artifacts
  [{:os/name "Linux.*"
