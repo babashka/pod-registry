@@ -1,0 +1,18 @@
+{:pod/name tommy-mor/go-valve-query
+ :pod/description "query/rcon valve source engine servers"
+ :pod/version "0.1.1"
+ :pod/license ""
+ :pod/language "go"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/tommy-mor/go-valve-query/releases/download/v0.1.1/go-valve-query_0.1.1_Linux_x86_64.zip"
+   :artifact/executable "go-valve-query"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/tommy-mor/go-valve-query/releases/download/v0.1.1/go-valve-query_0.1.1_Darwin_x86_64.zip"
+   :artifact/executable "go-valve-query"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/tommy-mor/go-valve-query/releases/download/v0.1.1/go-valve-query_0.1.1_Windows_x86_64.zip"
+   :artifact/executable "go-valve-query.exe"}]}
