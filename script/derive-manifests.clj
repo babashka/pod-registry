@@ -72,4 +72,7 @@
                      (str "## Registered pods\n\n" table))]
     (spit readme-path new-content)))
 
-(insert-table!)
+(when (= *file* (System/getProperty "babashka.file"))
+  (insert-table!))
+
+nil
