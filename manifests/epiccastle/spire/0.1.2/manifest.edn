@@ -4,6 +4,7 @@
  :pod/license "EPL"
  :pod/options {:transport :socket}
  :pod/example "examples/spire.clj"
+ :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"
