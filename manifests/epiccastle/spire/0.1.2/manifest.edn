@@ -3,6 +3,7 @@
  :pod/version "0.1.2"
  :pod/license "EPL"
  :pod/options {:transport :socket}
+ :pod/example "examples/spire.clj"
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"
