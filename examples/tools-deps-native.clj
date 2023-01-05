@@ -1,6 +1,6 @@
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'org.babashka/tools-deps-native "0.0.5")
+(pods/load-pod 'org.babashka/tools-deps-native "0.1.0")
 
 (require '[clojure.tools.deps.alpha :as tda])
 
