@@ -2,10 +2,10 @@
 
 (pods/load-pod 'org.babashka/tools-deps-native "0.1.0")
 
-(require '[clojure.tools.deps.alpha :as tda])
+(require '[clojure.tools.deps :as td])
 
-(->> (tda/create-basis {:project "deps.edn"
-                        :extra '{:deps {buddy/buddy-core {:mvn/version "1.10.1"}}}})
+(->> (td/create-basis {:project "deps.edn"
+                       :extra '{:deps {buddy/buddy-core {:mvn/version "1.10.1"}}}})
      :classpath-roots
      (take 2))
 
