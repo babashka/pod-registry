@@ -14,6 +14,10 @@
    :artifact/url "https://github.com/babashka/pod-babashka-instaparse/releases/download/v0.0.1/pod-babashka-instaparse-0.0.1-linux-aarch64.zip"
    :artifact/executable "pod-babashka-instaparse"}
   {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-instaparse/releases/download/v0.0.1/pod-babashka-instaparse-0.0.1-macos-aarch64.zip"
+   :artifact/executable "pod-babashka-instaparse"}
+  {:os/name "Mac.*"
    :os/arch "x86_64"
    :artifact/url "https://github.com/babashka/pod-babashka-instaparse/releases/download/v0.0.1/pod-babashka-instaparse-0.0.1-macos-amd64.zip"
    :artifact/executable "pod-babashka-instaparse"}
