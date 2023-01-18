@@ -7,21 +7,21 @@
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"
-   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-v0.3.3-linux-amd64.zip"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-linux-amd64.zip"
    :artifact/executable "pod-babashka-buddy"}
   {:os/name "Linux.*"
    :os/arch "aarch64"
-   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-v0.3.3-linux-aarch64.zip"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-linux-aarch64.zip"
    :artifact/executable "pod-babashka-buddy"}
   {:os/name "Mac.*"
    :os/arch "aarch64"
-   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-v0.3.3-macos-aarch64.zip"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-macos-aarch64.zip"
    :artifact/executable "pod-babashka-buddy"}
   {:os/name "Mac.*"
    :os/arch "x86_64"
-   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-v0.3.3-macos-amd64.zip"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-macos-amd64.zip"
    :artifact/executable "pod-babashka-buddy"}
   {:os/name "Windows.*"
    :os/arch "amd64"
-   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-v0.3.3-windows-amd64.zip"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-windows-amd64.zip"
    :artifact/executable "pod-babashka-buddy.exe"}]}
