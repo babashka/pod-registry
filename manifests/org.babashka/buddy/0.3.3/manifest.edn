@@ -1,0 +1,27 @@
+{:pod/name org.babashka/buddy
+ :pod/description "Cryptographic API provided by buddy"
+ :pod/version "0.3.3"
+ :pod/license ""
+ :pod/example "examples/buddy.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-linux-amd64.zip"
+   :artifact/executable "pod-babashka-buddy"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-linux-aarch64.zip"
+   :artifact/executable "pod-babashka-buddy"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-macos-aarch64.zip"
+   :artifact/executable "pod-babashka-buddy"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-macos-amd64.zip"
+   :artifact/executable "pod-babashka-buddy"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-buddy/releases/download/v0.3.3/pod-babashka-buddy-0.3.3-windows-amd64.zip"
+   :artifact/executable "pod-babashka-buddy.exe"}]}

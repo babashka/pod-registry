@@ -1,0 +1,27 @@
+{:pod/name org.babashka/instaparse
+ :pod/description "Instaparse pod"
+ :pod/version "0.0.1"
+ :pod/license "EPL-1.0"
+ :pod/example "examples/instaparse.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-instaparse/releases/download/v0.0.1/pod-babashka-instaparse-0.0.1-linux-amd64.zip"
+   :artifact/executable "pod-babashka-instaparse"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-instaparse/releases/download/v0.0.1/pod-babashka-instaparse-0.0.1-linux-aarch64.zip"
+   :artifact/executable "pod-babashka-instaparse"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-instaparse/releases/download/v0.0.1/pod-babashka-instaparse-0.0.1-macos-aarch64.zip"
+   :artifact/executable "pod-babashka-instaparse"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/pod-babashka-instaparse/releases/download/v0.0.1/pod-babashka-instaparse-0.0.1-macos-amd64.zip"
+   :artifact/executable "pod-babashka-instaparse"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-instaparse/releases/download/v0.0.1/pod-babashka-instaparse-0.0.1-windows-amd64.zip"
+   :artifact/executable "pod-babashka-instaparse.exe"}]}
