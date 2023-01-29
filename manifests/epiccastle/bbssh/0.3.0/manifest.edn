@@ -1,0 +1,24 @@
+{:pod/name epiccastle/bbssh
+ :pod/description "SSH remote execution and file copy"
+ :pod/version "0.3.0"
+ :pod/license "EPL"
+ :pod/options {:transport :socket}
+ :pod/example "examples/bbssh.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/epiccastle/bbssh/releases/download/v0.3.0/bbssh-0.3.0-macos-amd64.tgz"
+   :artifact/executable "bbssh"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/epiccastle/bbssh/releases/download/v0.3.0/bbssh-0.3.0-macos-aarch64.tgz"
+   :artifact/executable "bbssh"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/epiccastle/bbssh/releases/download/v0.3.0/bbssh-0.3.0-linux-amd64.tgz"
+   :artifact/executable "bbssh"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/epiccastle/bbssh/releases/download/v0.3.0/bbssh-0.3.0-windows-amd64.zip"
+   :artifact/executable "bbssh.exe"}]}
