@@ -3,7 +3,7 @@
  :pod/version "0.0.1-SNAPSHOT"
  :pod/license ""
  :pod/options {:transport :socket}
- :pod/example "examples/laterna.clj"
+ :pod/example "examples/lanterna.clj"
  :pod/language "clojure"
  :pod/artifacts
  [{:os/name "Mac.*"
