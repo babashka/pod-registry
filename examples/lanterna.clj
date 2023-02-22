@@ -1,6 +1,6 @@
 (require '[babashka.pods :refer [load-pod]])
 
-(load-pod 'org.babashka/lanterna "0.0.1-SNAPSHOT" {#_#_:force true #_#_:transport :socket})
+(load-pod 'org.babashka/lanterna "0.0.1")
 
 (require '[pod.babashka.lanterna.terminal :as terminal])
 

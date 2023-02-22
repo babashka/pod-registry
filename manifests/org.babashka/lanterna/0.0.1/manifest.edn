@@ -1,0 +1,21 @@
+{:pod/name org.babashka/lanterna
+ :pod/description "A Clojurey wrapper around the Lanterna terminal output library."
+ :pod/version "0.0.1"
+ :pod/license ""
+ :pod/options {:transport :socket}
+ :pod/example "examples/lanterna.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/pod-babashka-lanterna/releases/download/v0.0.1/pod-babashka-lanterna-0.0.1-macos-amd64.zip"
+   :artifact/executable "pod-babashka-lanterna"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-lanterna/releases/download/v0.0.1/pod-babashka-lanterna-0.0.1-linux-amd64.zip"
+   :artifact/executable "pod-babashka-lanterna"}
+  #_{:os/name "Windows.*"
+     :os/arch "amd64"
+     :artifact/url "https://github.com/borkdude/babashka/releases/download/v0.2.2/babashka-0.2.2-windows-amd64.zip"
+     :artifact/hash "sha256:AAMks+jCr5JbeU4jHwaGxPHG22jyfvB5lzVEaRTpcHE="
+     :artifact/executable "bb.exe"}]}
