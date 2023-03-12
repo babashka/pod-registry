@@ -1,6 +1,6 @@
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'rorokimdim/stash "0.3.1")
+(pods/load-pod 'rorokimdim/stash "0.3.2")
 
 (require '[pod.rorokimdim.stash :as stash])
 
