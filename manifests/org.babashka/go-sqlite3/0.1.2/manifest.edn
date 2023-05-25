@@ -1,0 +1,23 @@
+{:pod/name org.babashka/go-sqlite3
+ :pod/description "Interact with sqlite3"
+ :pod/version "0.1.2"
+ :pod/license ""
+ :pod/example "examples/go_sqlite3.clj"
+ :pod/language "go"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-go-sqlite3/releases/download/v0.1.2/pod-babashka-go-sqlite3-0.1.2-linux-amd64.zip"
+   :artifact/executable "pod-babashka-go-sqlite3"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-go-sqlite3/releases/download/v0.1.2/pod-babashka-go-sqlite3-0.1.2-linux-aarch64.zip"
+   :artifact/executable "pod-babashka-go-sqlite3"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/pod-babashka-go-sqlite3/releases/download/v0.1.2/pod-babashka-go-sqlite3-0.1.2-macos-amd64.zip"
+   :artifact/executable "pod-babashka-go-sqlite3"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-go-sqlite3/releases/download/v0.1.2/pod-babashka-go-sqlite3-0.1.2-windows-amd64.zip"
+   :artifact/executable "pod-babashka-go-sqlite3.exe"}]}
