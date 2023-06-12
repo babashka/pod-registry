@@ -3,7 +3,7 @@
 (require '[babashka.pods :as pods]
          '[clojure.java.io :as io])
 
-(pods/load-pod 'epiccastle/bbssh "0.4.0")
+(pods/load-pod 'epiccastle/bbssh "0.5.0")
 
 (require '[pod.epiccastle.bbssh.core :as bbssh]
          '[pod.epiccastle.bbssh.scp :as scp])
