@@ -1,0 +1,23 @@
+{:pod/name org.babashka/postgresql
+ :pod/description "Postgresql access via next.jdbc"
+ :pod/version "0.1.2"
+ :pod/license ""
+ :pod/example "examples/postgresql.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.1.2/pod-babashka-postgresql-0.1.2-macos-amd64.zip"
+   :artifact/executable "pod-babashka-postgresql"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.1.2/pod-babashka-postgresql-0.1.2-linux-amd64.zip"
+   :artifact/executable "pod-babashka-postgresql"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.1.2/pod-babashka-postgresql-0.1.2-linux-aarch64.zip"
+   :artifact/executable "pod-babashka-postgresql"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.1.2/pod-babashka-postgresql-0.1.2-windows-amd64.zip"
+   :artifact/executable "pod-babashka-postgresql.exe"}]}
