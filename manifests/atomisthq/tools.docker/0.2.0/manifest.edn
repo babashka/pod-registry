@@ -1,0 +1,20 @@
+{:pod/name atomisthq/tools.docker
+ :pod/description "docker golang utils for clojure"
+ :pod/version "0.2.0"
+ :pod/license "Apache"
+ :pod/example "https://raw.githubusercontent.com/atomisthq/pod-atomisthq-tools.docker/main/dev/user.clj"
+ :pod/language "go"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/atomisthq/pod-atomisthq-tools.docker/releases/download/v0.2.0/pod-atomisthq-tools.docker-0.2.0-linux-amd64.zip"
+   :artifact/executable "pod-atomisthq-tools.docker"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/atomisthq/pod-atomisthq-tools.docker/releases/download/v0.2.0/pod-atomisthq-tools.docker-0.2.0-macos-x86_64.zip"
+   :artifact/executable "pod-atomisthq-tools.docker"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/atomisthq/pod-atomisthq-tools.docker/releases/download/v0.2.0/pod-atomisthq-tools.docker-0.2.0-macos-arm64.zip"
+   :artifact/executable "pod-atomisthq-tools.docker"}]}
+
