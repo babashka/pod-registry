@@ -1,7 +1,7 @@
 #!/usr/bin/env bb
 
 (require '[babashka.pods :as pods])
-(pods/load-pod 'org.babashka/fswatcher "0.0.3")
+(pods/load-pod 'org.babashka/fswatcher "0.0.5")
 
 (require '[pod.babashka.fswatcher :as fw])
 

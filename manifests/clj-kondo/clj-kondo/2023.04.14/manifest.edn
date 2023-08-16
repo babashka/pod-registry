@@ -1,0 +1,27 @@
+{:pod/name borkdude/clj-kondo
+ :pod/description "A static analyzer and linter for Clojure code that sparks joy"
+ :pod/version "2023.04.14"
+ :pod/license ""
+ :pod/example "examples/clj-kondo.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2023.04.14/clj-kondo-2023.04.14-macos-aarch64.zip"
+   :artifact/executable "clj-kondo"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2023.04.14/clj-kondo-2023.04.14-macos-amd64.zip"
+   :artifact/executable "clj-kondo"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2023.04.14/clj-kondo-2023.04.14-linux-aarch64.zip"
+   :artifact/executable "clj-kondo"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2023.04.14/clj-kondo-2023.04.14-linux-static-amd64.zip"
+   :artifact/executable "clj-kondo"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/clj-kondo/clj-kondo/releases/download/v2023.04.14/clj-kondo-2023.04.14-windows-amd64.zip"
+   :artifact/executable "clj-kondo.exe"}]}

@@ -1,0 +1,27 @@
+{:pod/name org.babashka/fswatcher
+ :pod/description "Filewatcher based on Go fsnotify"
+ :pod/version "0.0.5"
+ :pod/license ""
+ :pod/example "examples/fswatcher.clj"
+ :pod/language "go"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-fswatcher/releases/download/v0.0.5/pod-babashka-fswatcher-0.0.5-linux-amd64.zip"
+   :artifact/executable "pod-babashka-fswatcher"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-fswatcher/releases/download/v0.0.5/pod-babashka-fswatcher-0.0.5-linux-aarch64.zip"
+   :artifact/executable "pod-babashka-fswatcher"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-fswatcher/releases/download/v0.0.5/pod-babashka-fswatcher-0.0.5-macos-aarch64.zip"
+   :artifact/executable "pod-babashka-fswatcher"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/pod-babashka-fswatcher/releases/download/v0.0.5/pod-babashka-fswatcher-0.0.5-macos-amd64.zip"
+   :artifact/executable "pod-babashka-fswatcher"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-fswatcher/releases/download/v0.0.5/pod-babashka-fswatcher-0.0.5-windows-amd64.zip"
+   :artifact/executable "pod-babashka-fswatcher.exe"}]}
