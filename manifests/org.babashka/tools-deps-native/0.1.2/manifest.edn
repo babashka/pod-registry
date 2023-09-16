@@ -7,7 +7,7 @@
  :pod/artifacts
  [{:os/name "Mac.*"
    :os/arch "aarch64"
-   :artifact/url "https://github.com/babashka/tools-deps-native/releases/download/v0.1.2/tools-deps-native-0.1.2-macos-aarch64.zip"
+   :artifact/url "https://github.com/babashka/tools-deps-native/releases/download/v0.1.2/tools-deps-native-0.1.2-macos-aarch64.tar.gz"
    :artifact/executable "tools-deps-native"}
   {:os/name "Mac.*"
    :os/arch "x86_64"
