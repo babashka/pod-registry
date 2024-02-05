@@ -14,6 +14,10 @@
    :artifact/url "https://github.com/babashka/tools-deps-native/releases/download/v0.1.3/tools-deps-native-0.1.3-macos-amd64.zip"
    :artifact/executable "tools-deps-native"}
   {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/tools-deps-native/releases/download/v0.1.3/tools-deps-native-0.1.3-linux-aarch64.zip"
+   :artifact/executable "tools-deps-native"}
+  {:os/name "Linux.*"
    :os/arch "amd64"
    :artifact/url "https://github.com/babashka/tools-deps-native/releases/download/v0.1.3/tools-deps-native-0.1.3-linux-amd64.zip"
    :artifact/executable "tools-deps-native"}
