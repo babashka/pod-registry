@@ -1,14 +1,14 @@
 (require '[babashka.pods :as pods]
-         '[babashka.fs :as fs])
+         #_'[babashka.fs :as fs])
 
-(pods/load-pod 'org.babashka/tools-deps-native "0.1.5")
+(pods/load-pod 'org.babashka/tools-deps-native "0.1.6")
 
 (require '[clojure.tools.deps :as td])
 
 (def current-file *file*)
 
 
-(->> (td/create-basis {:project (str (fs/file (fs/parent *file*) "tools-deps-native.edn"))
+(->> (td/create-basis {:project "x.edn"
                        :extra '{:deps {buddy/buddy-core {:mvn/version "1.10.1"}}}})
      :classpath-roots
      (take 2)
