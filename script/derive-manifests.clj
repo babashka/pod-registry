@@ -34,7 +34,7 @@
        :pod/artifacts
        first
        :artifact/url
-       (re-find #"https:\/\/github\.com\/[A-Za-z0-9-]*\/[A-Za-z0-9-]*")
+       (re-find #"https:\/\/github\.com\/[A-Za-z0-9-]*\/[A-Za-z0-9.-]*")
        (format "[%s](%s)" (:pod/name pod))))
 
 (def ^:const programming-langs
