@@ -1,0 +1,17 @@
+{:pod/name com.github.clojure-lsp/clojure-lsp
+ :pod/description ""
+ :pod/version "2024.04.22-11.50.26"
+ :pod/license ""
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/clojure-lsp/clojure-lsp/releases/download/2024.04.22-11.50.26/clojure-lsp-native-macos-amd64.zip"
+   :artifact/executable "clojure-lsp"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/clojure-lsp/clojure-lsp/releases/download/2024.04.22-11.50.26/clojure-lsp-native-static-linux-amd64.zip"
+   :artifact/executable "clojure-lsp"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/clojure-lsp/clojure-lsp/releases/download/2024.04.22-11.50.26/clojure-lsp-native-windows-amd64.zip"
+   :artifact/executable "clojure-lsp.exe"}]}
