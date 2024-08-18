@@ -9,6 +9,10 @@
    :os/arch             "amd64"
    :artifact/url        "https://github.com/juji-io/datalevin/releases/download/0.9.10/dtlv-0.9.10-ubuntu-latest-amd64.zip"
    :artifact/executable "dtlv"}
+  {:os/name             "Linux.*"
+   :os/arch             "aarch64"
+   :artifact/url        "https://github.com/juji-io/datalevin/releases/download/0.9.10/dtlv-0.9.10-ubuntu-latest-aarch64.zip"
+   :artifact/executable "dtlv"}
   {:os/name             "Mac.*"
    :os/arch             "aarch64"
    :artifact/url        "https://github.com/juji-io/datalevin/releases/download/0.9.10/dtlv-0.9.10-macos-latest-aarch64.zip"
