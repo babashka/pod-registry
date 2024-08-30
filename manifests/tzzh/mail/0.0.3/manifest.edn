@@ -1,0 +1,27 @@
+{:pod/name tzzh/mail
+ :pod/description "Send emails"
+ :pod/version "0.0.3"
+ :pod/license ""
+ :pod/example "examples/tzzh_mail.clj"
+ :pod/language "go"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/tzzh/pod-tzzh-mail/releases/download/v0.0.3/pod-tzzh-mail_Linux_x86_64.tar.gz"
+   :artifact/executable "pod-tzzh-mail"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/tzzh/pod-tzzh-mail/releases/download/v0.0.3/pod-tzzh-mail_Linux_arm64.tar.gz"
+   :artifact/executable "pod-tzzh-mail"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/tzzh/pod-tzzh-mail/releases/download/v0.0.3/pod-tzzh-mail_Darwin_x86_64.tar.gz"
+   :artifact/executable "pod-tzzh-mail"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/tzzh/pod-tzzh-mail/releases/download/v0.0.3/pod-tzzh-mail_Darwin_arm64.tar.gz"
+   :artifact/executable "pod-tzzh-mail"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/tzzh/pod-tzzh-mail/releases/download/v0.0.3/pod-tzzh-mail_Windows_x86_64.zip"
+   :artifact/executable "pod-tzzh-mail.exe"}]}
