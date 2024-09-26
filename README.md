@@ -28,7 +28,7 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 | Pod | Description | Latest version | Example | Language |
 | --- | --- | --- | --- | --- |
 | [atomisthq/tools.docker](https://github.com/atomisthq/pod-atomisthq-tools.docker) | docker golang utils for clojure | 0.1.0 | [link](https://raw.githubusercontent.com/atomisthq/pod-atomisthq-tools.docker/main/dev/user.clj) | [<img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="golang" width="24" height="24">](https://golang.org/) |
-| [borkdude/clj-kondo](https://github.com/clj-kondo/clj-kondo) | A static analyzer and linter for Clojure code that sparks joy | 2024.09.26 | [link](examples/clj-kondo.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
+| [borkdude/clj-kondo](https://github.com/clj-kondo/clj-kondo) | A static analyzer and linter for Clojure code that sparks joy | 2024.09.27 | [link](examples/clj-kondo.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [com.fluree/crypto](https://github.com/fluree/pod-fluree-crypto) | A Clojure(Script) crypto library for the Fluree graph database | 0.1.2 | [link](examples/fluree-crypto.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
 | [com.github.clojure-lsp/clojure-lsp](https://github.com/clojure-lsp/clojure-lsp) |  | 2024.04.22-11.50.26 |  | null |
 | [epiccastle/bbssh](https://github.com/epiccastle/bbssh) | SSH remote execution and file copy | 0.6.0 | [link](examples/bbssh.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure" width="24" height="24">](https://clojure.org/) |
@@ -56,7 +56,7 @@ From then on, a pod exposes namespaces which can be called like regular Clojure:
 | [rorokimdim/stash](https://github.com/rorokimdim/stash) | Encrypted text storage | 0.3.3 | [link](examples/stash.clj) | [<img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Haskell-Logo.svg" alt="haskell" width="24" height="24">](https://haskell.org/) |
 | [tommy-mor/go-valve-query](https://github.com/tommy-mor/go-valve-query) | query/rcon valve source engine servers | 0.1.1 |  | [<img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="golang" width="24" height="24">](https://golang.org/) |
 | [tzzh/aws](https://github.com/tzzh/pod-tzzh-aws) | Interact with AWS | 0.0.3 | [link](examples/tzzh_aws.clj) | [<img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="golang" width="24" height="24">](https://golang.org/) |
-| [tzzh/mail](https://github.com/tzzh/pod-tzzh-mail) | Send emails | 0.0.2 | [link](examples/tzzh_mail.clj) | [<img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="golang" width="24" height="24">](https://golang.org/) |
+| [tzzh/mail](https://github.com/tzzh/pod-tzzh-mail) | Send emails | 0.0.3 | [link](examples/tzzh_mail.clj) | [<img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="golang" width="24" height="24">](https://golang.org/) |
 
 ## Registering a pod
 
