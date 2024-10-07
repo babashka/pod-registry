@@ -1,0 +1,19 @@
+{:pod/name com.github.jackdbd/pod.jackdbd.jsoup
+ :pod/description "Babashka pod for parsing HTML with jsoup."
+ :pod/example "examples/jsoup.bb"
+ :pod/language "clojure"
+ :pod/license "MIT"
+ :pod/version "0.4.0"
+ :pod/artifacts
+ [{:os/arch "amd64"
+   :os/name "Linux.*"
+   :artifact/url "https://github.com/jackdbd/pod-jackdbd-jsoup/releases/download/v0.4.0/pod-jackdbd-jsoup-0.4.0-ubuntu-latest-amd64.zip"
+   :artifact/executable "com-github-jackdbd/pod-jackdbd-jsoup"}
+  {:os/arch "aarch64"
+   :os/name "Mac.*"
+   :artifact/url "https://github.com/jackdbd/pod-jackdbd-jsoup/releases/download/v0.4.0/pod-jackdbd-jsoup-0.4.0-macos-latest-aarch64.zip"
+   :artifact/executable "com-github-jackdbd/pod-jackdbd-jsoup"}
+  {:os/arch "amd64"
+   :os/name "Windows.*"
+   :artifact/url "https://github.com/jackdbd/pod-jackdbd-jsoup/releases/download/v0.4.0/pod-jackdbd-jsoup-0.4.0-windows-latest-amd64.zip"
+   :artifact/executable "com-github-jackdbd/pod-jackdbd-jsoup.exe"}]}
