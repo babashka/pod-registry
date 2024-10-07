@@ -8,12 +8,12 @@
  [{:os/arch "amd64"
    :os/name "Linux.*"
    :artifact/url "https://github.com/jackdbd/pod-jackdbd-jsoup/releases/download/v0.4.0/pod-jackdbd-jsoup-0.4.0-ubuntu-latest-amd64.zip"
-   :artifact/executable "com-github-jackdbd/pod-jackdbd-jsoup"}
+   :artifact/executable "pod-jackdbd-jsoup"}
   {:os/arch "aarch64"
    :os/name "Mac.*"
    :artifact/url "https://github.com/jackdbd/pod-jackdbd-jsoup/releases/download/v0.4.0/pod-jackdbd-jsoup-0.4.0-macos-latest-aarch64.zip"
-   :artifact/executable "com-github-jackdbd/pod-jackdbd-jsoup"}
+   :artifact/executable "pod-jackdbd-jsoup"}
   {:os/arch "amd64"
    :os/name "Windows.*"
    :artifact/url "https://github.com/jackdbd/pod-jackdbd-jsoup/releases/download/v0.4.0/pod-jackdbd-jsoup-0.4.0-windows-latest-amd64.zip"
-   :artifact/executable "com-github-jackdbd/pod-jackdbd-jsoup.exe"}]}
+   :artifact/executable "pod-jackdbd-jsoup.exe"}]}
