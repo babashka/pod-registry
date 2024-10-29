@@ -1,0 +1,23 @@
+{:pod/name rorokimdim/stash
+ :pod/description "Encrypted text storage"
+ :pod/version "0.3.4"
+ :pod/license ""
+ :pod/example "examples/stash.clj"
+ :pod/language "haskell"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/rorokimdim/stash/releases/download/v0.3.4/stash-ubuntu-latest.zip"
+   :artifact/executable "stash"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/rorokimdim/stash/releases/download/v0.3.4/stash-macOS-latest.zip"
+   :artifact/executable "stash"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/rorokimdim/stash/releases/download/v0.3.4/stash-macOS-13.zip"
+   :artifact/executable "stash"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/rorokimdim/stash/releases/download/v0.3.4/stash-windows-latest.zip"
+   :artifact/executable "stash.exe"}]}
