@@ -1,0 +1,19 @@
+{:pod/name bogue1979/nats
+ :pod/description "interact with NATS"
+ :pod/version "0.0.6"
+ :pod/license ""
+ :pod/example "examples/bogue1979_nats.clj"
+ :pod/language "go"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/bogue1979/pod-bogue1979-nats/releases/download/v0.0.6/pod-bogue1979-nats_0.0.6_linux_amd64.zip"
+   :artifact/executable "pod-bogue1979-nats"}
+  {:os/name "Mac.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/bogue1979/pod-bogue1979-nats/releases/download/v0.0.6/pod-bogue1979-nats_0.0.6_darwin_amd64.zip"
+   :artifact/executable "pod-bogue1979-nats"}
+  {:os/name "Windows.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/bogue1979/pod-bogue1979-nats/releases/download/v0.0.6/pod-bogue1979-nats_0.0.6_windows_amd64.zip"
+   :artifact/executable "pod-bogue1979-nats.exe"}]}
