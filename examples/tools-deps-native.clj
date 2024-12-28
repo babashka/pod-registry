@@ -1,7 +1,7 @@
 (require '[babashka.pods :as pods]
          #_'[babashka.fs :as fs])
 
-(pods/load-pod 'org.babashka/tools-deps-native "0.1.6")
+(pods/load-pod 'org.babashka/tools-deps-native "0.1.7")
 
 (require '[clojure.tools.deps :as td])
 
