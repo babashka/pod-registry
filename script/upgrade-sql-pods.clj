@@ -15,7 +15,7 @@
 (upgrade-manifest/upgrade-manifest "org.babashka/postgresql" version)
 (upgrade-manifest/upgrade-manifest "org.babashka/mssql" version)
 (upgrade-manifest/upgrade-manifest "org.babashka/mysql" version)
-
+(upgrade-manifest/upgrade-manifest "org.babashka/duckdb" version)
 
 (doseq [example ["examples/hsqldb.clj" "examples/mysql.clj" "examples/postgresql.clj"]]
   (spit example

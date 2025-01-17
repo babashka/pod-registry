@@ -1,0 +1,23 @@
+{:pod/name org.babashka/mysql
+ :pod/description "MySQL access via next.jdbc"
+ :pod/version "0.1.3"
+ :pod/license ""
+ :pod/example "examples/mysql.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.1.3/pod-babashka-mysql-0.1.3-macos-amd64.zip"
+   :artifact/executable "pod-babashka-mysql"}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.1.3/pod-babashka-mysql-0.1.3-linux-amd64.zip"
+   :artifact/executable "pod-babashka-mysql"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.1.3/pod-babashka-mysql-0.1.3-linux-aarch64.zip"
+   :artifact/executable "pod-babashka-mysql"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/babashka-sql-pods/releases/download/v0.1.3/pod-babashka-mysql-0.1.3-windows-amd64.zip"
+   :artifact/executable "pod-babashka-mysql.exe"}]}
