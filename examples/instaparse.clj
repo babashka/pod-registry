@@ -2,7 +2,7 @@
 
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'org.babashka/instaparse "0.0.4")
+(pods/load-pod 'org.babashka/instaparse "0.0.5")
 
 (require '[pod.babashka.instaparse :as insta])
 
