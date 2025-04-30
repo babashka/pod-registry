@@ -9,7 +9,7 @@
    :artifact/executable "pod-ilmoraunio-conftest"}
   {:os/name             "Linux.*"
    :os/arch             "aarch64"
-   :artifact/url        "https://github.com/ilmoraunio/pod-ilmoraunio-conftest/releases/download/v0.0.3/pod-ilmoraunio-conftest-0.0.3-linux-amd64.zip"
+   :artifact/url        "https://github.com/ilmoraunio/pod-ilmoraunio-conftest/releases/download/v0.0.3/pod-ilmoraunio-conftest-0.0.3-linux-arm64.zip"
    :artifact/executable "pod-ilmoraunio-conftest"}
   {:os/name             "Mac.*"
    :os/arch             "aarch64"
