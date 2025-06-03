@@ -2,7 +2,7 @@
 
 (require '[babashka.pods :as pods]
          '[babashka.fs :as fs])
-(pods/load-pod 'ilmoraunio/conjtest "0.0.5")
+(pods/load-pod 'ilmoraunio/conjtest "0.1.0")
 (require '[pod-ilmoraunio-conjtest.api :as conjtest])
 
 (spit "my.edn" "{:hello :world}")
