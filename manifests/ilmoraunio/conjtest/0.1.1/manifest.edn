@@ -1,0 +1,19 @@
+{:pod/name        ilmoraunio/conjtest
+ :pod/description "Parse configuration files using Clojure & Go parsers"
+ :pod/version     "0.1.1"
+ :pod/language    "clojure"
+ :pod/example     "examples/conjtest.clj"
+ :pod/license     "MIT"
+ :pod/artifacts
+ [{:os/name             "Linux.*"
+   :os/arch             "amd64"
+   :artifact/url        "https://github.com/ilmoraunio/pod-ilmoraunio-conjtest/releases/download/v0.1.1/pod-ilmoraunio-conjtest-0.1.1-linux-amd64.zip"
+   :artifact/executable "pod-ilmoraunio-conjtest"}
+  {:os/name             "Linux.*"
+   :os/arch             "aarch64"
+   :artifact/url        "https://github.com/ilmoraunio/pod-ilmoraunio-conjtest/releases/download/v0.1.1/pod-ilmoraunio-conjtest-0.1.1-linux-arm64.zip"
+   :artifact/executable "pod-ilmoraunio-conjtest"}
+  {:os/name             "Mac.*"
+   :os/arch             "aarch64"
+   :artifact/url        "https://github.com/ilmoraunio/pod-ilmoraunio-conjtest/releases/download/v0.1.1/pod-ilmoraunio-conjtest-0.1.1-macos-aarch64.zip"
+   :artifact/executable "pod-ilmoraunio-conjtest"}]}
