@@ -47,13 +47,15 @@
   [pods]
   (reduce
    (fn [table {:pod/keys [description version example language] :as p}]
-     (str table
-          (format "| %s | %s | %s | %s | %s |\n"
-                  (format-name p)
-                  description
-                  version
-                  (if (str/blank? example) "" (format "[link](%s)" example))
-                  (programming-langs (keyword language)))))
+     (if (= 'org.babashka/duckdb (:pod/name p))
+       table
+       (str table
+            (format "| %s | %s | %s | %s | %s |\n"
+                    (format-name p)
+                    description
+                    version
+                    (if (str/blank? example) "" (format "[link](%s)" example))
+                    (programming-langs (keyword language))))))
    (str "| Pod | Description | Latest version | Example | Language |\n"
         "| --- | --- | --- | --- | --- |\n")
    pods))
