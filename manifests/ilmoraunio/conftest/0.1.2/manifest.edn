@@ -1,0 +1,23 @@
+{:pod/name        ilmoraunio/conftest
+ :pod/description "Access Conftest internal API"
+ :pod/version     "0.1.2"
+ :pod/language    "go"
+ :pod/license     "MIT"
+ :pod/example     "examples/conftest.clj"
+ :pod/artifacts
+ [{:os/name             "Linux.*"
+   :os/arch             "amd64"
+   :artifact/url        "https://github.com/ilmoraunio/pod-ilmoraunio-conftest/releases/download/v0.1.2/pod-ilmoraunio-conftest-0.1.2-linux-amd64.zip"
+   :artifact/executable "pod-ilmoraunio-conftest"}
+  {:os/name             "Linux.*"
+   :os/arch             "aarch64"
+   :artifact/url        "https://github.com/ilmoraunio/pod-ilmoraunio-conftest/releases/download/v0.1.2/pod-ilmoraunio-conftest-0.1.2-linux-arm64.zip"
+   :artifact/executable "pod-ilmoraunio-conftest"}
+  {:os/name             "Mac.*"
+   :os/arch             "aarch64"
+   :artifact/url        "https://github.com/ilmoraunio/pod-ilmoraunio-conftest/releases/download/v0.1.2/pod-ilmoraunio-conftest-0.1.2-macos-aarch64.zip"
+   :artifact/executable "pod-ilmoraunio-conftest"}
+  {:os/name             "Windows.*"
+   :os/arch             "amd64"
+   :artifact/url        "https://github.com/ilmoraunio/pod-ilmoraunio-conftest/releases/download/v0.1.2/pod-ilmoraunio-conftest-0.1.2-windows-amd64.zip"
+   :artifact/executable "pod-ilmoraunio-conftest.exe"}]}
