@@ -1,0 +1,23 @@
+{:pod/name replikativ/datahike
+ :pod/description "A fast, immutable, distributed & compositional Datalog engine for everyone."
+ :pod/version "0.7.1659"
+ :pod/license "EPL 1.0"
+ :pod/example "https://raw.githubusercontent.com/babashka/pod-registry/master/examples/datahike.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/replikativ/datahike/releases/download/0.7.1659/datahike-0.7.1659-linux-amd64.zip"
+   :artifact/executable "dthk"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/replikativ/datahike/releases/download/0.7.1659/datahike-0.7.1659-linux-aarch64.zip"
+   :artifact/executable "dthk"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/replikativ/datahike/releases/download/0.7.1659/datahike-0.7.1659-macos-amd64.zip"
+   :artifact/executable "dthk"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/replikativ/datahike/releases/download/0.7.1659/datahike-0.7.1659-macos-aarch64.zip"
+   :artifact/executable "dthk"}]}
