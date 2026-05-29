@@ -1,0 +1,27 @@
+{:pod/name org.babashka/gozxing
+ :pod/description "Read and write QR codes, based on gozxing"
+ :pod/version "0.0.1"
+ :pod/license "MIT"
+ :pod/example "examples/gozxing.clj"
+ :pod/language "go"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-gozxing/releases/download/v0.0.1/pod-babashka-gozxing-0.0.1-linux-amd64.zip"
+   :artifact/executable "pod-babashka-gozxing"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-gozxing/releases/download/v0.0.1/pod-babashka-gozxing-0.0.1-linux-aarch64.zip"
+   :artifact/executable "pod-babashka-gozxing"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/babashka/pod-babashka-gozxing/releases/download/v0.0.1/pod-babashka-gozxing-0.0.1-macos-aarch64.zip"
+   :artifact/executable "pod-babashka-gozxing"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/babashka/pod-babashka-gozxing/releases/download/v0.0.1/pod-babashka-gozxing-0.0.1-macos-amd64.zip"
+   :artifact/executable "pod-babashka-gozxing"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/babashka/pod-babashka-gozxing/releases/download/v0.0.1/pod-babashka-gozxing-0.0.1-windows-amd64.zip"
+   :artifact/executable "pod-babashka-gozxing.exe"}]}
