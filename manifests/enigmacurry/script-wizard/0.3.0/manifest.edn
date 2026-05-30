@@ -1,0 +1,31 @@
+{:pod/name enigmacurry/script-wizard
+ :pod/description "Interactive shell script helper: ask questions, confirmations, selections, date pickers, and menus"
+ :pod/version "0.3.0"
+ :pod/license "MIT"
+ :pod/example "examples/script_wizard.clj"
+ :pod/language "rust"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/EnigmaCurry/script-wizard/releases/download/v0.3.0/script-wizard-Linux-x86_64.tar.gz"
+   :artifact/executable "script-wizard"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/EnigmaCurry/script-wizard/releases/download/v0.3.0/script-wizard-Linux-aarch64.tar.gz"
+   :artifact/executable "script-wizard"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/EnigmaCurry/script-wizard/releases/download/v0.3.0/script-wizard-Darwin-x86_64.tar.gz"
+   :artifact/executable "script-wizard"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/EnigmaCurry/script-wizard/releases/download/v0.3.0/script-wizard-Darwin-aarch64.tar.gz"
+   :artifact/executable "script-wizard"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/EnigmaCurry/script-wizard/releases/download/v0.3.0/script-wizard-Windows-x86_64.zip"
+   :artifact/executable "script-wizard.exe"}
+  {:os/name "Windows.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/EnigmaCurry/script-wizard/releases/download/v0.3.0/script-wizard-Windows-aarch64.zip"
+   :artifact/executable "script-wizard.exe"}]}
