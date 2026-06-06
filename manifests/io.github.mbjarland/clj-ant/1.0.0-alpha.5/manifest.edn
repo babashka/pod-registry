@@ -1,0 +1,27 @@
+{:pod/name io.github.mbjarland/clj-ant
+ :pod/description "Apache Ant's task ecosystem, fluent from Clojure."
+ :pod/version "1.0.0-alpha.5"
+ :pod/license "EPL-1.0"
+ :pod/example "examples/io_github_mbjarland_clj_ant.clj"
+ :pod/language "clojure"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/mbjarland/clj-ant/releases/download/v1.0.0-alpha.5/pod-clj-ant-1.0.0-alpha.5-jvm-unix.zip"
+   :artifact/executable "pod-clj-ant"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/mbjarland/clj-ant/releases/download/v1.0.0-alpha.5/pod-clj-ant-1.0.0-alpha.5-jvm-unix.zip"
+   :artifact/executable "pod-clj-ant"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/mbjarland/clj-ant/releases/download/v1.0.0-alpha.5/pod-clj-ant-1.0.0-alpha.5-jvm-unix.zip"
+   :artifact/executable "pod-clj-ant"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/mbjarland/clj-ant/releases/download/v1.0.0-alpha.5/pod-clj-ant-1.0.0-alpha.5-jvm-unix.zip"
+   :artifact/executable "pod-clj-ant"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/mbjarland/clj-ant/releases/download/v1.0.0-alpha.5/pod-clj-ant-1.0.0-alpha.5-jvm-windows.zip"
+   :artifact/executable "pod-clj-ant.bat"}]}
