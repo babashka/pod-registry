@@ -1,0 +1,22 @@
+{:pod/name kpassapk/emacs
+ :pod/description "Expose Emacs (org-mode, calc, project.el, org-roam, ...) to babashka scripts"
+ :pod/version "0.3.1"
+ :pod/license "EPL-1.0"
+ :pod/language "rust"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/kpassapk/pod-kpassapk-emacs/releases/download/v0.3.1/pod-kpassapk-emacs-0.3.1-linux-amd64.zip"
+   :artifact/executable "pod-kpassapk-emacs"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/kpassapk/pod-kpassapk-emacs/releases/download/v0.3.1/pod-kpassapk-emacs-0.3.1-linux-aarch64.zip"
+   :artifact/executable "pod-kpassapk-emacs"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/kpassapk/pod-kpassapk-emacs/releases/download/v0.3.1/pod-kpassapk-emacs-0.3.1-macos-amd64.zip"
+   :artifact/executable "pod-kpassapk-emacs"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/kpassapk/pod-kpassapk-emacs/releases/download/v0.3.1/pod-kpassapk-emacs-0.3.1-macos-aarch64.zip"
+   :artifact/executable "pod-kpassapk-emacs"}]}
