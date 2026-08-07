@@ -1,0 +1,22 @@
+{:pod/name kpassapk/emacs
+ :pod/description "Expose Emacs to babashka scripts: run Clojure inside Emacs with clj!"
+ :pod/version "0.4.0"
+ :pod/license "EPL-1.0"
+ :pod/language "rust"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/kpassapk/pod-kpassapk-emacs/releases/download/v0.4.0/pod-kpassapk-emacs-0.4.0-linux-amd64.zip"
+   :artifact/executable "pod-kpassapk-emacs"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/kpassapk/pod-kpassapk-emacs/releases/download/v0.4.0/pod-kpassapk-emacs-0.4.0-linux-aarch64.zip"
+   :artifact/executable "pod-kpassapk-emacs"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/kpassapk/pod-kpassapk-emacs/releases/download/v0.4.0/pod-kpassapk-emacs-0.4.0-macos-amd64.zip"
+   :artifact/executable "pod-kpassapk-emacs"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/kpassapk/pod-kpassapk-emacs/releases/download/v0.4.0/pod-kpassapk-emacs-0.4.0-macos-aarch64.zip"
+   :artifact/executable "pod-kpassapk-emacs"}]}
