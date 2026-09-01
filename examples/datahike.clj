@@ -2,7 +2,7 @@
 
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'replikativ/datahike "0.8.1862")
+(pods/load-pod 'replikativ/datahike "0.8.1865")
 
 (require '[datahike.pod :as d])
 
