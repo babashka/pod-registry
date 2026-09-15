@@ -1,6 +1,6 @@
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'kpassapk/emacs "0.4.0")
+(pods/load-pod 'kpassapk/emacs "0.5.2")
 
 (require '[pod.kpassapk.emacs :as emacs])
 
