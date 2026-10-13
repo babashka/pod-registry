@@ -2,7 +2,7 @@
 
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'huahaiy/datalevin "1.2.2")
+(pods/load-pod 'huahaiy/datalevin "1.2.3")
 
 (require '[pod.huahaiy.datalevin :as d])
 
