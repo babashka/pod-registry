@@ -19,5 +19,5 @@
    :artifact/executable "dtlv"}
   {:os/name             "Windows.*"
    :os/arch             "amd64"
-   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.10/dtlv-1.2.10-windows-amd64.zip"
+   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.10/dtlv-1.2.10-windows-latest-amd64.zip"
    :artifact/executable "dtlv.exe"}]}
