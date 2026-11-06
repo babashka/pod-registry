@@ -1,7 +1,7 @@
 #!/usr/bin/env bb
 
 (require '[babashka.pods :as pods])
-(pods/load-pod 'joshrotenberg/sqlite "0.1.0")
+(pods/load-pod 'joshrotenberg/sqlite "0.1.1")
 
 (require '[pod.joshrotenberg.sqlite :as sql])
 

@@ -5,7 +5,7 @@
 
 (require '[babashka.pods :as pods]
          '[babashka.fs :as fs])
-(pods/load-pod 'joshrotenberg/fswatcher "0.1.0")
+(pods/load-pod 'joshrotenberg/fswatcher "0.1.1")
 
 (require '[pod.babashka.fswatcher :as fw])
 
