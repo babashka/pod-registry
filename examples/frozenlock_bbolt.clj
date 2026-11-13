@@ -2,7 +2,7 @@
 
 (require '[babashka.pods :as pods])
 
-(pods/load-pod 'frozenlock/bbolt "0.1.0")
+(pods/load-pod 'frozenlock/bbolt "0.1.1")
 
 (require '[pod.frozenlock.bbolt :as bbolt])
 
