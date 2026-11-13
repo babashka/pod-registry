@@ -1,0 +1,39 @@
+;; Template for the pod-registry entry.
+;;
+;; The registry expects this file at
+;;   manifests/frozenlock/bbolt/<version>/manifest.edn
+;; in https://github.com/babashka/pod-registry, with the artifact URLs pointing
+;; at the archives produced by .goreleaser.yml for the matching tag.
+;;
+;; :pod/name, :pod/version and :pod/artifacts are required.
+{:pod/name        frozenlock/bbolt
+ :pod/description "Ordered key/value store with ACID transactions, backed by bbolt"
+ :pod/version     "0.1.3"
+ :pod/license     "EPL-2.0"
+ :pod/language    "go"
+ :pod/example     "https://raw.githubusercontent.com/babashka/pod-registry/master/examples/frozenlock_bbolt.clj"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/frozenlock/pod-frozenlock-bbolt/releases/download/v0.1.3/pod-frozenlock-bbolt_0.1.3_Linux_x86_64.zip"
+   :artifact/executable "pod-frozenlock-bbolt"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/frozenlock/pod-frozenlock-bbolt/releases/download/v0.1.3/pod-frozenlock-bbolt_0.1.3_Linux_arm64.zip"
+   :artifact/executable "pod-frozenlock-bbolt"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/frozenlock/pod-frozenlock-bbolt/releases/download/v0.1.3/pod-frozenlock-bbolt_0.1.3_Darwin_x86_64.zip"
+   :artifact/executable "pod-frozenlock-bbolt"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/frozenlock/pod-frozenlock-bbolt/releases/download/v0.1.3/pod-frozenlock-bbolt_0.1.3_Darwin_arm64.zip"
+   :artifact/executable "pod-frozenlock-bbolt"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/frozenlock/pod-frozenlock-bbolt/releases/download/v0.1.3/pod-frozenlock-bbolt_0.1.3_Windows_x86_64.zip"
+   :artifact/executable "pod-frozenlock-bbolt.exe"}
+  {:os/name "Windows.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/frozenlock/pod-frozenlock-bbolt/releases/download/v0.1.3/pod-frozenlock-bbolt_0.1.3_Windows_arm64.zip"
+   :artifact/executable "pod-frozenlock-bbolt.exe"}]}
