@@ -1,0 +1,27 @@
+{:pod/name joshrotenberg/fswatcher
+ :pod/description "Watch files, built on notify; a drop-in for org.babashka/fswatcher"
+ :pod/example "examples/joshrotenberg_fswatcher.clj"
+ :pod/version "0.1.0"
+ :pod/license "MIT OR Apache-2.0"
+ :pod/language "rust"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/joshrotenberg/babashka-pod/releases/download/pod-fswatcher-v0.1.0/pod-fswatcher-0.1.0-linux-amd64.zip"
+   :artifact/executable "pod-fswatcher"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/joshrotenberg/babashka-pod/releases/download/pod-fswatcher-v0.1.0/pod-fswatcher-0.1.0-linux-aarch64.zip"
+   :artifact/executable "pod-fswatcher"}
+  {:os/name "Mac.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/joshrotenberg/babashka-pod/releases/download/pod-fswatcher-v0.1.0/pod-fswatcher-0.1.0-macos-aarch64.zip"
+   :artifact/executable "pod-fswatcher"}
+  {:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://github.com/joshrotenberg/babashka-pod/releases/download/pod-fswatcher-v0.1.0/pod-fswatcher-0.1.0-macos-x86_64.zip"
+   :artifact/executable "pod-fswatcher"}
+  {:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/joshrotenberg/babashka-pod/releases/download/pod-fswatcher-v0.1.0/pod-fswatcher-0.1.0-windows-amd64.zip"
+   :artifact/executable "pod-fswatcher.exe"}]}
