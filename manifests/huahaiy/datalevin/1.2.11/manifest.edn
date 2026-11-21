@@ -7,17 +7,17 @@
  :pod/artifacts
  [{:os/name             "Linux.*"
    :os/arch             "amd64"
-   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.11/dtlv-1.2.11-ubuntu-22.04-amd64.zip"
+   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.11/dtlv-1.2.11-linux-amd64.zip"
    :artifact/executable "dtlv"}
   {:os/name             "Linux.*"
    :os/arch             "aarch64"
-   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.11/dtlv-1.2.11-ubuntu-24.04-arm-aarch64.zip"
+   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.11/dtlv-1.2.11-linux-aarch64.zip"
    :artifact/executable "dtlv"}
   {:os/name             "Mac.*"
    :os/arch             "aarch64"
-   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.11/dtlv-1.2.11-macos-14-aarch64.zip"
+   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.11/dtlv-1.2.11-macos-aarch64.zip"
    :artifact/executable "dtlv"}
   {:os/name             "Windows.*"
    :os/arch             "amd64"
-   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.11/dtlv-1.2.11-windows-latest-amd64.zip"
+   :artifact/url        "https://github.com/datalevin/datalevin/releases/download/1.2.11/dtlv-1.2.11-windows-amd64.zip"
    :artifact/executable "dtlv.exe"}]}
